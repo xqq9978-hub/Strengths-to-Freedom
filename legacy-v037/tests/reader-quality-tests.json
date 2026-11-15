@@ -1,0 +1,26 @@
+[
+  {
+    "name": "相同匹配理由",
+    "detected": true
+  },
+  {
+    "name": "九项同指标",
+    "detected": true
+  },
+  {
+    "name": "已知时间仍称未知",
+    "detected": true
+  },
+  {
+    "name": "首周工时超额",
+    "detected": true
+  },
+  {
+    "name": "有建议无结论卡",
+    "detected": true
+  },
+  {
+    "name": "结论引用失效",
+    "detected": true
+  }
+]

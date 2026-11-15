@@ -1,0 +1,45 @@
+{
+  "source_sha256": "94b72b5bfdbd4de64fe75312edaab56260a305aa34941e1af3fc7b52fff503ab",
+  "sections": {
+    "theory.md": [
+      "一"
+    ],
+    "interview.md": [
+      "二",
+      "三"
+    ],
+    "questions.md": [
+      "四"
+    ],
+    "audit-advantage.md": [
+      "五"
+    ],
+    "audit-income.md": [
+      "六"
+    ],
+    "audit-action.md": [
+      "七"
+    ],
+    "report-content.md": [
+      "八"
+    ],
+    "data-original.md": [
+      "九"
+    ],
+    "html-boundary.md": [
+      "十"
+    ],
+    "quality.md": [
+      "十一"
+    ],
+    "exceptions-and-start.md": [
+      "十二",
+      "十三"
+    ]
+  },
+  "notes": [
+    "完整原V0.2保存在source-v02.md；只供追溯，不覆盖V0.3运行规则",
+    "V0.3按用户最新要求改为默认深度、每轮最多两问、自动HTML",
+    "原始HTML只读，打包的是可数据适配的副本，不含固定用户结论"
+  ]
+}

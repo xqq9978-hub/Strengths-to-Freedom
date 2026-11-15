@@ -1,0 +1,38 @@
+[
+  {
+    "name": "reference_without_salary_source",
+    "passed": true,
+    "errors": [
+      "boundary: salary reference without sources",
+      "boundary: multiple independent samples required for reference status; use limited"
+    ]
+  },
+  {
+    "name": "range_not_ordered",
+    "passed": true,
+    "errors": [
+      "boundary: reversed range"
+    ]
+  },
+  {
+    "name": "mixed_unit",
+    "passed": true,
+    "errors": [
+      "boundary: mixed unit"
+    ]
+  },
+  {
+    "name": "unknown_with_amount",
+    "passed": true,
+    "errors": [
+      "boundary: unknown range has numbers"
+    ]
+  },
+  {
+    "name": "macro_method_is_not_salary_evidence",
+    "passed": true,
+    "errors": [
+      "boundary: method or macro statistic is not role evidence"
+    ]
+  }
+]

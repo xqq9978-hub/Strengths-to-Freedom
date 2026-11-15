@@ -1,0 +1,407 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:personal-value-map:report:0.3.7",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "report_id",
+    "revision",
+    "state",
+    "user_profile",
+    "quadrants",
+    "strengths",
+    "constraints",
+    "events",
+    "opportunities",
+    "income_basis",
+    "income_baseline",
+    "income_scenarios",
+    "action_plans",
+    "evidence_index",
+    "unknowns",
+    "assumptions",
+    "selected_path_id",
+    "recommended_path_id",
+    "reviews",
+    "reports"
+  ],
+  "$defs": {
+    "claim": {
+      "type": "object",
+      "required": [
+        "kind",
+        "value",
+        "evidence_refs",
+        "assumption_refs",
+        "unknown_refs"
+      ],
+      "properties": {
+        "kind": {
+          "enum": [
+            "fact",
+            "market_reference",
+            "inference",
+            "assumption",
+            "unknown"
+          ]
+        },
+        "value": {},
+        "evidence_refs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "assumption_refs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "unknown_refs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "coaching": {
+      "type": "object",
+      "required": [
+        "phase",
+        "approach",
+        "judgment",
+        "bottleneck",
+        "action",
+        "signal",
+        "reconsider_if",
+        "framework_reason",
+        "stage_reading"
+      ],
+      "properties": {
+        "phase": {
+          "enum": [
+            null,
+            "dissonance",
+            "uncertainty",
+            "discovery"
+          ]
+        },
+        "approach": {
+          "enum": [
+            "clarify",
+            "experiment",
+            "consolidate"
+          ]
+        },
+        "judgment": {
+          "$ref": "#/$defs/claim"
+        },
+        "bottleneck": {
+          "$ref": "#/$defs/claim"
+        },
+        "action": {
+          "$ref": "#/$defs/claim"
+        },
+        "signal": {
+          "$ref": "#/$defs/claim"
+        },
+        "reconsider_if": {
+          "$ref": "#/$defs/claim"
+        },
+        "framework_reason": {
+          "type": "string"
+        },
+        "stage_reading": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "properties": {
+    "state": {
+      "type": "object"
+    },
+    "user_profile": {
+      "type": "object"
+    },
+    "quadrants": {
+      "type": "object",
+      "required": [
+        "mind",
+        "body",
+        "spirit",
+        "vocation"
+      ],
+      "properties": {
+        "mind": {
+          "type": "object",
+          "required": [
+            "observation",
+            "life_context",
+            "development",
+            "evidence_refs",
+            "unknown_refs"
+          ],
+          "properties": {
+            "coaching": {
+              "$ref": "#/$defs/coaching"
+            }
+          }
+        },
+        "body": {
+          "type": "object",
+          "required": [
+            "observation",
+            "life_context",
+            "development",
+            "evidence_refs",
+            "unknown_refs"
+          ],
+          "properties": {
+            "coaching": {
+              "$ref": "#/$defs/coaching"
+            }
+          }
+        },
+        "spirit": {
+          "type": "object",
+          "required": [
+            "observation",
+            "life_context",
+            "development",
+            "evidence_refs",
+            "unknown_refs"
+          ],
+          "properties": {
+            "coaching": {
+              "$ref": "#/$defs/coaching"
+            }
+          }
+        },
+        "vocation": {
+          "type": "object",
+          "required": [
+            "observation",
+            "life_context",
+            "development",
+            "evidence_refs",
+            "unknown_refs"
+          ],
+          "properties": {
+            "coaching": {
+              "$ref": "#/$defs/coaching"
+            }
+          }
+        }
+      }
+    },
+    "constraints": {
+      "type": "object"
+    },
+    "strengths": {
+      "type": "array"
+    },
+    "events": {
+      "type": "array"
+    },
+    "opportunities": {
+      "type": "array"
+    },
+    "evidence_index": {
+      "type": "array"
+    },
+    "unknowns": {
+      "type": "array"
+    },
+    "assumptions": {
+      "type": "array"
+    },
+    "reviews": {
+      "type": "object"
+    },
+    "reports": {
+      "type": "array"
+    },
+    "schema_version": {
+      "const": "0.3.7"
+    },
+    "report_id": {
+      "type": "string"
+    },
+    "revision": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "income_basis": {
+      "type": "object",
+      "required": [
+        "currency",
+        "unit",
+        "tax_basis",
+        "period",
+        "composition"
+      ]
+    },
+    "income_baseline": {
+      "$ref": "#/$defs/claim"
+    },
+    "income_scenarios": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 3,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "mechanism",
+          "annual",
+          "strength_ids",
+          "evidence_refs",
+          "status",
+          "unknown_refs"
+        ],
+        "properties": {
+          "id": {
+            "enum": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          "annual": {
+            "type": "array",
+            "minItems": 6,
+            "maxItems": 6,
+            "items": {
+              "type": "object",
+              "required": [
+                "year",
+                "value",
+                "kind",
+                "evidence_refs",
+                "assumption_refs",
+                "unknown_refs",
+                "formula"
+              ],
+              "properties": {
+                "year": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 5
+                },
+                "value": {
+                  "type": [
+                    "number",
+                    "null"
+                  ]
+                },
+                "kind": {
+                  "enum": [
+                    "fact",
+                    "market_reference",
+                    "inference",
+                    "assumption",
+                    "unknown"
+                  ]
+                }
+              }
+            }
+          },
+          "life_blueprint": {
+            "type": "object",
+            "properties": {
+              "daily_life": {
+                "$ref": "#/$defs/claim"
+              },
+              "work_style": {
+                "$ref": "#/$defs/claim"
+              },
+              "time_and_relationships": {
+                "$ref": "#/$defs/claim"
+              },
+              "tradeoff": {
+                "$ref": "#/$defs/claim"
+              },
+              "curiosity": {
+                "$ref": "#/$defs/claim"
+              },
+              "milestones": {
+                "$ref": "#/$defs/claim"
+              },
+              "status_note": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "daily_life",
+              "work_style",
+              "time_and_relationships",
+              "tradeoff",
+              "curiosity",
+              "milestones",
+              "status_note"
+            ]
+          },
+          "growth_checkpoint": {
+            "type": "object",
+            "properties": {
+              "obstacle": {
+                "$ref": "#/$defs/claim"
+              },
+              "pass_signal": {
+                "$ref": "#/$defs/claim"
+              },
+              "pause_signal": {
+                "$ref": "#/$defs/claim"
+              }
+            },
+            "required": [
+              "obstacle",
+              "pass_signal",
+              "pause_signal"
+            ]
+          }
+        }
+      }
+    },
+    "action_plans": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 3
+    },
+    "selected_path_id": {
+      "enum": [
+        "A",
+        "B",
+        "C",
+        null
+      ]
+    },
+    "recommended_path_id": {
+      "enum": [
+        "A",
+        "B",
+        "C",
+        null
+      ]
+    },
+    "boundary_analysis": {
+      "type": "object",
+      "description": "See boundary-evidence.md; legacy inputs may omit this field and render unknown states."
+    },
+    "decision_brief": {
+      "type": "object",
+      "required": [
+        "headline",
+        "reasons",
+        "evidence_refs",
+        "key_condition",
+        "first_action",
+        "change_trigger"
+      ]
+    }
+  }
+}

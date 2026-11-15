@@ -1,0 +1,31 @@
+[
+  {
+    "name": "quadrant_is_not_level4",
+    "passed": true,
+    "detected": [
+      "mind: invalid development level",
+      "mind: insufficient evidence for level"
+    ]
+  },
+  {
+    "name": "stage_without_evidence",
+    "passed": true,
+    "detected": [
+      "mind: unsupported development phase"
+    ]
+  },
+  {
+    "name": "single_statement_not_full_level",
+    "passed": true,
+    "detected": [
+      "mind: insufficient evidence for level"
+    ]
+  },
+  {
+    "name": "missing_life_context",
+    "passed": true,
+    "detected": [
+      "mind: missing life context"
+    ]
+  }
+]

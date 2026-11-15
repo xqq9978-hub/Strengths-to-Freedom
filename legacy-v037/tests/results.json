@@ -1,0 +1,175 @@
+{
+  "scope": "离线合成数据与错误注入；未调用豆包或其他模型",
+  "total": 21,
+  "passed": 21,
+  "results": [
+    {
+      "name": "sales",
+      "type": "synthetic_structure",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "student",
+      "type": "synthetic_structure",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "developer",
+      "type": "synthetic_structure",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "freelancer",
+      "type": "synthetic_structure",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "support",
+      "type": "synthetic_structure",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "missing_Y4",
+      "type": "negative_mutation",
+      "passed": true,
+      "errors_detected": [
+        "$.income_scenarios[0].annual: too few items"
+      ]
+    },
+    {
+      "name": "fake_fact_without_source",
+      "type": "negative_mutation",
+      "passed": true,
+      "errors_detected": [
+        "$.user_profile.goal: unsupported claim"
+      ]
+    },
+    {
+      "name": "dangling_evidence",
+      "type": "negative_mutation",
+      "passed": true,
+      "errors_detected": [
+        "$.income_scenarios[0]: dangling evidence_refs E999"
+      ]
+    },
+    {
+      "name": "superseded_evidence",
+      "type": "negative_mutation",
+      "passed": true,
+      "errors_detected": [
+        "$.user_profile.stage: superseded evidence",
+        "$.user_profile.background: superseded evidence",
+        "$.income_scenarios[0]: superseded evidence",
+        "$.income_scenarios[0].fit_reason: superseded evidence",
+        "$.income_scenarios[1]: superseded evidence",
+        "$.income_scenarios[1].fit_reason: superseded evidence",
+        "$.income_scenarios[2]: superseded evidence",
+        "$.income_scenarios[2].fit_reason: superseded evidence",
+        "$.reviews.ADVANTAGE_EVIDENCE_AUDITOR: superseded evidence",
+        "$.reviews.INCOME_PATH_AUDITOR: superseded evidence",
+        "$.reviews.ACTION_PLAN_AUDITOR: superseded evidence"
+      ]
+    },
+    {
+      "name": "unknown_becomes_zero",
+      "type": "negative_mutation",
+      "passed": true,
+      "errors_detected": [
+        "$.income_scenarios[0].annual[1]: unknown must be null with reference",
+        "A: future value must be a conditional scenario"
+      ]
+    },
+    {
+      "name": "baseline_disagrees",
+      "type": "negative_mutation",
+      "passed": true,
+      "errors_detected": [
+        "$.income_scenarios[1].annual[0]: unknown must be null with reference",
+        "B: baseline mismatch"
+      ]
+    },
+    {
+      "name": "all_paths_same",
+      "type": "negative_mutation",
+      "passed": true,
+      "errors_detected": [
+        "identical path mechanisms"
+      ]
+    },
+    {
+      "name": "plan_missing_C",
+      "type": "negative_mutation",
+      "passed": true,
+      "errors_detected": [
+        "$.action_plans: too few items"
+      ]
+    },
+    {
+      "name": "plan_missing_day30",
+      "type": "negative_mutation",
+      "passed": true,
+      "errors_detected": [
+        "A: missing action stage"
+      ]
+    },
+    {
+      "name": "report_stale_revision",
+      "type": "negative_mutation",
+      "passed": true,
+      "errors_detected": [
+        "report revision mismatch"
+      ]
+    },
+    {
+      "name": "premature_success",
+      "type": "negative_mutation",
+      "passed": true,
+      "errors_detected": [
+        "A: premature final outcome"
+      ]
+    },
+    {
+      "name": "unaccepted_numeric_assumption",
+      "type": "negative_mutation",
+      "passed": true,
+      "errors_detected": [
+        "A: unsupported or rejected numeric assumption"
+      ]
+    },
+    {
+      "name": "unverified_market",
+      "type": "negative_mutation",
+      "passed": true,
+      "errors_detected": [
+        "$.user_profile.goal: unsupported claim"
+      ]
+    },
+    {
+      "name": "revenue_misread_as_net",
+      "type": "negative_mutation",
+      "passed": true,
+      "errors_detected": [
+        "A: formula mismatch"
+      ]
+    },
+    {
+      "name": "single_event_is_not_grade_A",
+      "type": "negative_mutation",
+      "passed": true,
+      "errors_detected": [
+        "grade A needs repeated events or verified independent feedback"
+      ]
+    },
+    {
+      "name": "explicit_zero_and_accepted_scenarios",
+      "type": "synthetic_structure",
+      "passed": true,
+      "errors": []
+    }
+  ]
+}

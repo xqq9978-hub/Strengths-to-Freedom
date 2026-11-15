@@ -1,0 +1,3894 @@
+{
+  "schema_version": "0.3.7",
+  "report_id": "SYNTHETIC-读者版报告",
+  "revision": 1,
+  "state": {
+    "mode": "REPORT",
+    "answered_count": 1,
+    "question_budget": 12,
+    "pending_question": null,
+    "selected_path_id": null,
+    "user_confirmed": false,
+    "life_coverage": {
+      "mind": {
+        "offered": false,
+        "answered": false,
+        "event_refs": [],
+        "evidence_refs": [],
+        "declined": false,
+        "reason": "合成样本仅演示一项生活回答，其他维度明确不足"
+      },
+      "body": {
+        "offered": true,
+        "answered": true,
+        "event_refs": [],
+        "evidence_refs": [
+          "U5"
+        ],
+        "declined": false,
+        "reason": "合成样本仅演示一项生活回答，其他维度明确不足"
+      },
+      "spirit": {
+        "offered": false,
+        "answered": false,
+        "event_refs": [],
+        "evidence_refs": [],
+        "declined": false,
+        "reason": "合成样本仅演示一项生活回答，其他维度明确不足"
+      }
+    }
+  },
+  "user_profile": {
+    "stage": {
+      "kind": "fact",
+      "value": "售前工程师，工作4年",
+      "evidence_refs": [
+        "U1"
+      ],
+      "assumption_refs": [],
+      "unknown_refs": []
+    },
+    "goal": {
+      "kind": "fact",
+      "value": "提升主业职责与收入，同时保留稳定生活节奏",
+      "evidence_refs": [
+        "U1"
+      ],
+      "assumption_refs": [],
+      "unknown_refs": []
+    },
+    "background": {
+      "kind": "fact",
+      "value": "喜欢把需求澄清后组织成可比较方案",
+      "evidence_refs": [
+        "U1"
+      ],
+      "assumption_refs": [],
+      "unknown_refs": []
+    }
+  },
+  "constraints": {
+    "weekly_minutes": {
+      "kind": "fact",
+      "value": 180,
+      "evidence_refs": [
+        "U1"
+      ],
+      "assumption_refs": [],
+      "unknown_refs": []
+    },
+    "budget": {
+      "kind": "fact",
+      "value": 500,
+      "evidence_refs": [
+        "U1"
+      ],
+      "assumption_refs": [],
+      "unknown_refs": []
+    },
+    "risk": {
+      "kind": "fact",
+      "value": "不接受先辞职再找方向",
+      "evidence_refs": [
+        "U1"
+      ],
+      "assumption_refs": [],
+      "unknown_refs": []
+    }
+  },
+  "quadrants": {
+    "mind": {
+      "observation": {
+        "kind": "inference",
+        "value": "已经开始尝试自己的做法，效果和适用边界仍在摸索。",
+        "evidence_refs": [
+          "U6",
+          "U7"
+        ],
+        "assumption_refs": [],
+        "unknown_refs": []
+      },
+      "evidence_refs": [
+        "U6",
+        "U7"
+      ],
+      "potential_strength_ids": [
+        "S1"
+      ],
+      "limitation": {
+        "kind": "unknown",
+        "value": null,
+        "evidence_refs": [],
+        "assumption_refs": [],
+        "unknown_refs": [
+          "N1"
+        ]
+      },
+      "unknown_refs": [
+        "N1"
+      ],
+      "life_context": {
+        "kind": "fact",
+        "value": "旅行规划与兴趣学习",
+        "evidence_refs": [
+          "U6",
+          "U7"
+        ],
+        "assumption_refs": [],
+        "unknown_refs": []
+      },
+      "development": {
+        "level": 2,
+        "phase": "uncertainty",
+        "level_basis": "两种生活情境中都出现主动比较和自行尝试；仅作该情境的暂定观察。",
+        "phase_basis": "已经开始尝试自己的做法，效果和适用边界仍在摸索。",
+        "evidence_refs": [
+          "U6",
+          "U7"
+        ],
+        "counterevidence_refs": [],
+        "support": "tentative",
+        "next_transition": "从旅行或兴趣里选一次判断，记下依据、反馈和调整。",
+        "unknown_refs": [
+          "N1"
+        ]
+      },
+      "reader_summary": "旅行规划与兴趣学习中，你出现过自己比较、试验并调整选择的做法。"
+    },
+    "body": {
+      "observation": {
+        "kind": "inference",
+        "value": "新恢复安排持续一个月，在普通日与忙碌日出现了重复的积极反馈。",
+        "evidence_refs": [
+          "U8"
+        ],
+        "assumption_refs": [],
+        "unknown_refs": []
+      },
+      "evidence_refs": [
+        "U8"
+      ],
+      "potential_strength_ids": [],
+      "limitation": {
+        "kind": "fact",
+        "value": "频繁切换较耗能",
+        "evidence_refs": [
+          "U3"
+        ],
+        "assumption_refs": [],
+        "unknown_refs": []
+      },
+      "unknown_refs": [
+        "N1"
+      ],
+      "life_context": {
+        "kind": "fact",
+        "value": "散步与忙碌后的恢复",
+        "evidence_refs": [
+          "U8"
+        ],
+        "assumption_refs": [],
+        "unknown_refs": []
+      },
+      "development": {
+        "level": null,
+        "phase": "discovery",
+        "level_basis": "信息不足，暂不定位",
+        "phase_basis": "新恢复安排持续一个月，在普通日与忙碌日出现了重复的积极反馈。",
+        "evidence_refs": [
+          "U8"
+        ],
+        "counterevidence_refs": [],
+        "support": "tentative",
+        "next_transition": "保留最小可持续活动，观察繁忙时是否仍能恢复。",
+        "unknown_refs": [
+          "N1"
+        ]
+      },
+      "reader_summary": "恢复精力时，你尝试保留日常活动，并在忙碌日缩短安排。"
+    },
+    "spirit": {
+      "observation": {
+        "kind": "inference",
+        "value": "原来的相处方式开始带来耗损，尚未形成新的边界做法。",
+        "evidence_refs": [
+          "U9"
+        ],
+        "assumption_refs": [],
+        "unknown_refs": []
+      },
+      "evidence_refs": [
+        "U9"
+      ],
+      "potential_strength_ids": [],
+      "limitation": {
+        "kind": "unknown",
+        "value": null,
+        "evidence_refs": [],
+        "assumption_refs": [],
+        "unknown_refs": [
+          "N1"
+        ]
+      },
+      "unknown_refs": [
+        "N1"
+      ],
+      "life_context": {
+        "kind": "fact",
+        "value": "朋友邀约与个人边界",
+        "evidence_refs": [
+          "U9"
+        ],
+        "assumption_refs": [],
+        "unknown_refs": []
+      },
+      "development": {
+        "level": null,
+        "phase": "dissonance",
+        "level_basis": "信息不足，暂不定位",
+        "phase_basis": "原来的相处方式开始带来耗损，尚未形成新的边界做法。",
+        "evidence_refs": [
+          "U9"
+        ],
+        "counterevidence_refs": [],
+        "support": "tentative",
+        "next_transition": "在安全、低负担的关系中表达一次自己的安排，观察反馈。",
+        "unknown_refs": [
+          "N1"
+        ]
+      },
+      "reader_summary": "在朋友邀约中，你注意到频繁答应会消耗精力；相处边界仍待探索。"
+    },
+    "vocation": {
+      "observation": {
+        "kind": "fact",
+        "value": "做过组合说明并被团队复用；成交贡献尚未核实",
+        "evidence_refs": [
+          "U2"
+        ],
+        "assumption_refs": [],
+        "unknown_refs": []
+      },
+      "evidence_refs": [
+        "U2"
+      ],
+      "potential_strength_ids": [
+        "S1"
+      ],
+      "limitation": {
+        "kind": "unknown",
+        "value": null,
+        "evidence_refs": [],
+        "assumption_refs": [],
+        "unknown_refs": [
+          "N1"
+        ]
+      },
+      "unknown_refs": [
+        "N1"
+      ],
+      "life_context": {
+        "kind": "unknown",
+        "value": null,
+        "evidence_refs": [],
+        "assumption_refs": [],
+        "unknown_refs": [
+          "N1"
+        ]
+      },
+      "development": {
+        "level": null,
+        "phase": null,
+        "level_basis": "信息不足，暂不定位",
+        "phase_basis": "知道一次方案经历，但缺少近期变化和重复反馈，阶段仍未知。",
+        "evidence_refs": [],
+        "counterevidence_refs": [],
+        "support": "insufficient",
+        "next_transition": "补充一次近期职业选择及其实际结果。",
+        "unknown_refs": [
+          "N1"
+        ]
+      },
+      "reader_summary": "你做过组织方案与选项的交付；能否稳定复用、对应怎样的职责仍待验证。"
+    }
+  },
+  "strengths": [
+    {
+      "id": "S1",
+      "name": "把需求限制转化为可比较选项",
+      "explanation": {
+        "kind": "inference",
+        "value": "目前出现一例可追溯的组织信息行为；不能据此断言成交能力强",
+        "evidence_refs": [
+          "U2"
+        ],
+        "assumption_refs": [],
+        "unknown_refs": []
+      },
+      "evidence_refs": [
+        "U2"
+      ],
+      "event_refs": [
+        "E1"
+      ],
+      "grade": "B",
+      "knowledge_experience_skill": "有一次具体经历；稳定技能仍需重复验证",
+      "independent_part": "需求整理与组合说明",
+      "repeatability": "还缺另一个独立场景",
+      "transferable_skills": [
+        "需求澄清",
+        "方案结构化表达"
+      ],
+      "application_contexts": [
+        "已有产品领域的售前方案沟通"
+      ],
+      "boundaries": "目前只在熟悉产品的单次方案事件中有依据；还不能推广为跨品类、谈判或成交优势。",
+      "unknown_refs": [
+        "N1"
+      ],
+      "reader_summary": "在询盘信息不完整时，你做过先整理用途与限制、再给出可比较方案的动作。目前支持的是这类做法的线索，稳定性仍需第二个场景验证。"
+    }
+  ],
+  "events": [
+    {
+      "id": "E1",
+      "evidence_refs": [
+        "U2"
+      ],
+      "context": {
+        "kind": "fact",
+        "value": "询盘信息不完整",
+        "evidence_refs": [
+          "U2"
+        ],
+        "assumption_refs": [],
+        "unknown_refs": []
+      },
+      "action": {
+        "kind": "fact",
+        "value": "列用途与约束，制作两种组合说明",
+        "evidence_refs": [
+          "U2"
+        ],
+        "assumption_refs": [],
+        "unknown_refs": []
+      },
+      "independent_part": {
+        "kind": "fact",
+        "value": "本人整理需求并形成说明",
+        "evidence_refs": [
+          "U2"
+        ],
+        "assumption_refs": [],
+        "unknown_refs": []
+      },
+      "result": {
+        "kind": "fact",
+        "value": "团队复用了一页说明",
+        "evidence_refs": [
+          "U2"
+        ],
+        "assumption_refs": [],
+        "unknown_refs": []
+      },
+      "feedback": {
+        "kind": "fact",
+        "value": "客户说区别清楚",
+        "evidence_refs": [
+          "U2"
+        ],
+        "assumption_refs": [],
+        "unknown_refs": []
+      },
+      "tool_team_dependency": {
+        "kind": "unknown",
+        "value": null,
+        "evidence_refs": [],
+        "assumption_refs": [],
+        "unknown_refs": [
+          "N1"
+        ]
+      }
+    }
+  ],
+  "opportunities": [],
+  "evidence_index": [
+    {
+      "id": "U1",
+      "source_type": "synthetic_user",
+      "turn": 1,
+      "quote": "【合成案例】售前工程师工作4年；税前年收入24万元；每周可投入180分钟，预算500元，希望提高主业职责，不先辞职。",
+      "status": "active",
+      "verified": false,
+      "url": null,
+      "publisher": null,
+      "access_date": null,
+      "region": null,
+      "role": null,
+      "basis": null
+    },
+    {
+      "id": "U2",
+      "source_type": "synthetic_user",
+      "turn": 2,
+      "quote": "【合成案例】面对信息不全的询盘，我先把客户的用途和限制列成一页，做两种组合说明。客户说区别清楚，团队复用了这一页，但没有提供成交数据。",
+      "status": "active",
+      "verified": false,
+      "url": null,
+      "publisher": null,
+      "access_date": null,
+      "region": null,
+      "role": null,
+      "basis": null
+    },
+    {
+      "id": "U3",
+      "source_type": "synthetic_user",
+      "turn": 3,
+      "quote": "【合成案例】我连续独立处理方案约90分钟后需要短休息；频繁打断容易疲惫。",
+      "status": "active",
+      "verified": false,
+      "url": null,
+      "publisher": null,
+      "access_date": null,
+      "region": null,
+      "role": null,
+      "basis": null
+    },
+    {
+      "id": "U4",
+      "source_type": "synthetic_user",
+      "turn": 4,
+      "quote": "【合成案例】有一次更高收入的岗位要求长期出差，我选择留下，因为想维持陪伴家人的时间。",
+      "status": "active",
+      "verified": false,
+      "url": null,
+      "publisher": null,
+      "access_date": null,
+      "region": null,
+      "role": null,
+      "basis": null
+    },
+    {
+      "id": "U5",
+      "source_type": "synthetic_user",
+      "turn": 5,
+      "quote": "【合成生活案例】最近三周我试着晚饭后散步，部分日子觉得恢复得更好，忙的时候仍会中断；目前还在试。",
+      "status": "active",
+      "verified": false,
+      "url": null,
+      "publisher": null,
+      "access_date": null,
+      "region": null,
+      "role": null,
+      "basis": null
+    },
+    {
+      "id": "U6",
+      "source_type": "synthetic_user",
+      "turn": 6,
+      "quote": "【虚构阶段演示】做旅行计划时，我比较预算、同行者和时间，改变了原来的目的地。",
+      "status": "active",
+      "verified": false,
+      "url": null,
+      "publisher": null,
+      "access_date": null,
+      "region": null,
+      "role": null,
+      "basis": null
+    },
+    {
+      "id": "U7",
+      "source_type": "synthetic_user",
+      "turn": 6,
+      "quote": "【虚构阶段演示】学摄影时，原本只按教程拍，后来自己试参数，并根据成片调整。",
+      "status": "active",
+      "verified": false,
+      "url": null,
+      "publisher": null,
+      "access_date": null,
+      "region": null,
+      "role": null,
+      "basis": null
+    },
+    {
+      "id": "U8",
+      "source_type": "synthetic_user",
+      "turn": 6,
+      "quote": "【虚构阶段演示】最近一个月固定散步后，大多数日子更容易恢复；加班日缩短活动也能保持。",
+      "status": "active",
+      "verified": false,
+      "url": null,
+      "publisher": null,
+      "access_date": null,
+      "region": null,
+      "role": null,
+      "basis": null
+    },
+    {
+      "id": "U9",
+      "source_type": "synthetic_user",
+      "turn": 6,
+      "quote": "【虚构阶段演示】以前为了不让朋友失望总答应邀约，最近感到疲惫，但还没找到更适合的相处方式。",
+      "status": "active",
+      "verified": false,
+      "url": null,
+      "publisher": null,
+      "access_date": null,
+      "region": null,
+      "role": null,
+      "basis": null
+    }
+  ],
+  "unknowns": [
+    {
+      "id": "N1",
+      "topic": "第二场景复用、岗位/内部职责窗口与可比薪酬",
+      "reason": "现有记录尚未取得这些证据；已知每周约180分钟，不再将容量写成未知",
+      "next_check": "按所选路径的实验获取对应反馈，而非重复完整访谈"
+    }
+  ],
+  "assumptions": [
+    {
+      "id": "H1",
+      "description": "纯合成设计示例：假定各路径职责变化与对应年度金额；不是个人薪资预测，也无市场薪酬背书",
+      "accepted": null,
+      "reason": "用于演示数据自适配",
+      "failure_condition": "真实职责、机会或资源不满足时金额无效",
+      "origin": "analyst_estimate",
+      "rationale": "这是纯合成界面测试，根据虚构职责转换提出参数，不作为真实岗位薪资证据",
+      "evidence_refs": [
+        "U1",
+        "U2"
+      ]
+    }
+  ],
+  "income_basis": {
+    "currency": "CNY",
+    "unit": "万元/年",
+    "tax_basis": "税前工资+副业净贡献",
+    "period": "annual",
+    "composition": "本合成示例为税前年收入；C仅包括雇主内部职责组合，不含副业营业额"
+  },
+  "income_baseline": {
+    "kind": "fact",
+    "value": 24,
+    "evidence_refs": [
+      "U1"
+    ],
+    "assumption_refs": [],
+    "unknown_refs": []
+  },
+  "income_scenarios": [
+    {
+      "id": "A",
+      "name": "当前专业深化",
+      "mechanism": "当前专业深化",
+      "status": "exploratory",
+      "annual": [
+        {
+          "year": 0,
+          "formula": null,
+          "kind": "fact",
+          "value": 24,
+          "evidence_refs": [
+            "U1"
+          ],
+          "assumption_refs": [],
+          "unknown_refs": []
+        },
+        {
+          "year": 1,
+          "value": 26.0,
+          "kind": "assumption",
+          "evidence_refs": [],
+          "assumption_refs": [
+            "H1"
+          ],
+          "unknown_refs": [],
+          "formula": {
+            "operation": "sum",
+            "inputs": [
+              {
+                "kind": "assumption",
+                "value": 26.0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              }
+            ]
+          },
+          "calculation_details": {
+            "status": "calculated",
+            "salary": 26.0,
+            "service_revenue": 0,
+            "service_cost": 0,
+            "service_net": 0,
+            "service_hours": 0,
+            "formula": "salary_monthly * paid_months + bonus + service_units * (service_unit_price - service_variable_cost) - service_fixed_cost"
+          }
+        },
+        {
+          "year": 2,
+          "value": 28.0,
+          "kind": "assumption",
+          "evidence_refs": [],
+          "assumption_refs": [
+            "H1"
+          ],
+          "unknown_refs": [],
+          "formula": {
+            "operation": "sum",
+            "inputs": [
+              {
+                "kind": "assumption",
+                "value": 28.0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              }
+            ]
+          },
+          "calculation_details": {
+            "status": "calculated",
+            "salary": 28.0,
+            "service_revenue": 0,
+            "service_cost": 0,
+            "service_net": 0,
+            "service_hours": 0,
+            "formula": "salary_monthly * paid_months + bonus + service_units * (service_unit_price - service_variable_cost) - service_fixed_cost"
+          }
+        },
+        {
+          "year": 3,
+          "value": 30.0,
+          "kind": "assumption",
+          "evidence_refs": [],
+          "assumption_refs": [
+            "H1"
+          ],
+          "unknown_refs": [],
+          "formula": {
+            "operation": "sum",
+            "inputs": [
+              {
+                "kind": "assumption",
+                "value": 30.0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              }
+            ]
+          },
+          "calculation_details": {
+            "status": "calculated",
+            "salary": 30.0,
+            "service_revenue": 0,
+            "service_cost": 0,
+            "service_net": 0,
+            "service_hours": 0,
+            "formula": "salary_monthly * paid_months + bonus + service_units * (service_unit_price - service_variable_cost) - service_fixed_cost"
+          }
+        },
+        {
+          "year": 4,
+          "value": 32.0,
+          "kind": "assumption",
+          "evidence_refs": [],
+          "assumption_refs": [
+            "H1"
+          ],
+          "unknown_refs": [],
+          "formula": {
+            "operation": "sum",
+            "inputs": [
+              {
+                "kind": "assumption",
+                "value": 32.0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              }
+            ]
+          },
+          "calculation_details": {
+            "status": "calculated",
+            "salary": 32.0,
+            "service_revenue": 0,
+            "service_cost": 0,
+            "service_net": 0,
+            "service_hours": 0,
+            "formula": "salary_monthly * paid_months + bonus + service_units * (service_unit_price - service_variable_cost) - service_fixed_cost"
+          }
+        },
+        {
+          "year": 5,
+          "value": 34.0,
+          "kind": "assumption",
+          "evidence_refs": [],
+          "assumption_refs": [
+            "H1"
+          ],
+          "unknown_refs": [],
+          "formula": {
+            "operation": "sum",
+            "inputs": [
+              {
+                "kind": "assumption",
+                "value": 34.0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              }
+            ]
+          },
+          "calculation_details": {
+            "status": "calculated",
+            "salary": 34.0,
+            "service_revenue": 0,
+            "service_cost": 0,
+            "service_net": 0,
+            "service_hours": 0,
+            "formula": "salary_monthly * paid_months + bonus + service_units * (service_unit_price - service_variable_cost) - service_fixed_cost"
+          }
+        }
+      ],
+      "strength_ids": [
+        "S1"
+      ],
+      "evidence_refs": [
+        "U1",
+        "U2",
+        "U4"
+      ],
+      "fit_reason": {
+        "kind": "inference",
+        "value": "已有方案被团队复用的线索，适合先检验它能否在另一个现有业务场景发挥作用；是否形成职责溢价仍未知。",
+        "evidence_refs": [
+          "U2",
+          "U4"
+        ],
+        "assumption_refs": [],
+        "unknown_refs": []
+      },
+      "capacity_status": "proposed",
+      "new_capabilities": [
+        "跨两个实际任务稳定组织方案",
+        "把交付效果与明确职责联系起来"
+      ],
+      "market_feedback_needed": [
+        "有实际职责方或需求方反馈后再判断"
+      ],
+      "growth_conditions": [
+        "重复交付有效",
+        "有可讨论的职责和回报机制"
+      ],
+      "inflection_reason": "承担新的明确职责时，回报才可能改变；不是按年份自动加薪",
+      "risk": "使用现有业务窗口，主要投入是整理与记录；公司没有职责空间时不能靠多做材料解决。",
+      "continue_condition": "获得真实使用反馈且容量允许",
+      "stop_condition": "与意愿或容量冲突时暂停",
+      "unknown_refs": [
+        "N1"
+      ],
+      "projection_model": {
+        "years": [
+          {
+            "year": 1,
+            "inputs": {
+              "salary_monthly": {
+                "kind": "assumption",
+                "value": 2.1666666666666665,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "paid_months": {
+                "kind": "assumption",
+                "value": 12,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "bonus": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_units": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_unit_price": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_variable_cost": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_fixed_cost": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "hours_per_unit": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_hours_budget": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              }
+            },
+            "explanation": "纯合成参数演示：该年假设月薪×12，不是用户愿望输入，也不是实际薪酬资料"
+          },
+          {
+            "year": 2,
+            "inputs": {
+              "salary_monthly": {
+                "kind": "assumption",
+                "value": 2.3333333333333335,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "paid_months": {
+                "kind": "assumption",
+                "value": 12,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "bonus": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_units": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_unit_price": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_variable_cost": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_fixed_cost": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "hours_per_unit": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_hours_budget": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              }
+            },
+            "explanation": "纯合成参数演示：该年假设月薪×12，不是用户愿望输入，也不是实际薪酬资料"
+          },
+          {
+            "year": 3,
+            "inputs": {
+              "salary_monthly": {
+                "kind": "assumption",
+                "value": 2.5,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "paid_months": {
+                "kind": "assumption",
+                "value": 12,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "bonus": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_units": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_unit_price": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_variable_cost": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_fixed_cost": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "hours_per_unit": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_hours_budget": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              }
+            },
+            "explanation": "纯合成参数演示：该年假设月薪×12，不是用户愿望输入，也不是实际薪酬资料"
+          },
+          {
+            "year": 4,
+            "inputs": {
+              "salary_monthly": {
+                "kind": "assumption",
+                "value": 2.6666666666666665,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "paid_months": {
+                "kind": "assumption",
+                "value": 12,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "bonus": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_units": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_unit_price": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_variable_cost": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_fixed_cost": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "hours_per_unit": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_hours_budget": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              }
+            },
+            "explanation": "纯合成参数演示：该年假设月薪×12，不是用户愿望输入，也不是实际薪酬资料"
+          },
+          {
+            "year": 5,
+            "inputs": {
+              "salary_monthly": {
+                "kind": "assumption",
+                "value": 2.8333333333333335,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "paid_months": {
+                "kind": "assumption",
+                "value": 12,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "bonus": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_units": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_unit_price": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_variable_cost": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_fixed_cost": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "hours_per_unit": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_hours_budget": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              }
+            },
+            "explanation": "纯合成参数演示：该年假设月薪×12，不是用户愿望输入，也不是实际薪酬资料"
+          }
+        ],
+        "sensitivity_cases": [
+          {
+            "name": "假定薪资较中央参数低15%",
+            "year": 5,
+            "inputs": {
+              "salary_monthly": {
+                "kind": "assumption",
+                "value": 2.408333333333333,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "paid_months": {
+                "kind": "assumption",
+                "value": 12,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "bonus": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_units": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_unit_price": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_variable_cost": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_fixed_cost": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "hours_per_unit": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_hours_budget": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              }
+            },
+            "explanation": "仅演示敏感性计算，非概率边界"
+          },
+          {
+            "name": "假定薪资较中央参数高10%",
+            "year": 5,
+            "inputs": {
+              "salary_monthly": {
+                "kind": "assumption",
+                "value": 3.116666666666667,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "paid_months": {
+                "kind": "assumption",
+                "value": 12,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "bonus": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_units": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_unit_price": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_variable_cost": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_fixed_cost": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "hours_per_unit": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_hours_budget": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              }
+            },
+            "explanation": "仅演示敏感性计算，非概率边界"
+          }
+        ]
+      },
+      "analysis_source": "ai_model",
+      "sensitivity": [
+        {
+          "name": "假定薪资较中央参数低15%",
+          "year": 5,
+          "value": 28.9,
+          "explanation": "仅演示敏感性计算，非概率边界",
+          "calculation_details": {
+            "status": "calculated",
+            "salary": 28.9,
+            "service_revenue": 0,
+            "service_cost": 0,
+            "service_net": 0,
+            "service_hours": 0,
+            "formula": "salary_monthly * paid_months + bonus + service_units * (service_unit_price - service_variable_cost) - service_fixed_cost"
+          },
+          "note": "条件敏感性，不是概率或置信区间"
+        },
+        {
+          "name": "假定薪资较中央参数高10%",
+          "year": 5,
+          "value": 37.4,
+          "explanation": "仅演示敏感性计算，非概率边界",
+          "calculation_details": {
+            "status": "calculated",
+            "salary": 37.400000000000006,
+            "service_revenue": 0,
+            "service_cost": 0,
+            "service_net": 0,
+            "service_hours": 0,
+            "formula": "salary_monthly * paid_months + bonus + service_units * (service_unit_price - service_variable_cost) - service_fixed_cost"
+          },
+          "note": "条件敏感性，不是概率或置信区间"
+        }
+      ],
+      "reader_cost": "使用现有业务窗口，主要投入是整理与记录；公司没有职责空间时不能靠多做材料解决。",
+      "value_map": {
+        "audience": "现有方案沟通的使用者",
+        "deliverable": "能在第二场景复用的一页组合说明",
+        "income_mechanism": "通过更大职责讨论工资或绩效回报",
+        "first_test": "别人是否理解，并在真实任务里使用"
+      }
+    },
+    {
+      "id": "B",
+      "name": "相邻岗位验证",
+      "mechanism": "相邻岗位验证",
+      "status": "exploratory",
+      "annual": [
+        {
+          "year": 0,
+          "formula": null,
+          "kind": "fact",
+          "value": 24,
+          "evidence_refs": [
+            "U1"
+          ],
+          "assumption_refs": [],
+          "unknown_refs": []
+        },
+        {
+          "year": 1,
+          "value": 22.0,
+          "kind": "assumption",
+          "evidence_refs": [],
+          "assumption_refs": [
+            "H1"
+          ],
+          "unknown_refs": [],
+          "formula": {
+            "operation": "sum",
+            "inputs": [
+              {
+                "kind": "assumption",
+                "value": 22.0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              }
+            ]
+          },
+          "calculation_details": {
+            "status": "calculated",
+            "salary": 22.0,
+            "service_revenue": 0,
+            "service_cost": 0,
+            "service_net": 0,
+            "service_hours": 0,
+            "formula": "salary_monthly * paid_months + bonus + service_units * (service_unit_price - service_variable_cost) - service_fixed_cost"
+          }
+        },
+        {
+          "year": 2,
+          "value": 25.0,
+          "kind": "assumption",
+          "evidence_refs": [],
+          "assumption_refs": [
+            "H1"
+          ],
+          "unknown_refs": [],
+          "formula": {
+            "operation": "sum",
+            "inputs": [
+              {
+                "kind": "assumption",
+                "value": 25.0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              }
+            ]
+          },
+          "calculation_details": {
+            "status": "calculated",
+            "salary": 25.0,
+            "service_revenue": 0,
+            "service_cost": 0,
+            "service_net": 0,
+            "service_hours": 0,
+            "formula": "salary_monthly * paid_months + bonus + service_units * (service_unit_price - service_variable_cost) - service_fixed_cost"
+          }
+        },
+        {
+          "year": 3,
+          "value": 29.0,
+          "kind": "assumption",
+          "evidence_refs": [],
+          "assumption_refs": [
+            "H1"
+          ],
+          "unknown_refs": [],
+          "formula": {
+            "operation": "sum",
+            "inputs": [
+              {
+                "kind": "assumption",
+                "value": 29.0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              }
+            ]
+          },
+          "calculation_details": {
+            "status": "calculated",
+            "salary": 29.0,
+            "service_revenue": 0,
+            "service_cost": 0,
+            "service_net": 0,
+            "service_hours": 0,
+            "formula": "salary_monthly * paid_months + bonus + service_units * (service_unit_price - service_variable_cost) - service_fixed_cost"
+          }
+        },
+        {
+          "year": 4,
+          "value": 32.0,
+          "kind": "assumption",
+          "evidence_refs": [],
+          "assumption_refs": [
+            "H1"
+          ],
+          "unknown_refs": [],
+          "formula": {
+            "operation": "sum",
+            "inputs": [
+              {
+                "kind": "assumption",
+                "value": 32.0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              }
+            ]
+          },
+          "calculation_details": {
+            "status": "calculated",
+            "salary": 32.0,
+            "service_revenue": 0,
+            "service_cost": 0,
+            "service_net": 0,
+            "service_hours": 0,
+            "formula": "salary_monthly * paid_months + bonus + service_units * (service_unit_price - service_variable_cost) - service_fixed_cost"
+          }
+        },
+        {
+          "year": 5,
+          "value": 36.0,
+          "kind": "assumption",
+          "evidence_refs": [],
+          "assumption_refs": [
+            "H1"
+          ],
+          "unknown_refs": [],
+          "formula": {
+            "operation": "sum",
+            "inputs": [
+              {
+                "kind": "assumption",
+                "value": 36.0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              }
+            ]
+          },
+          "calculation_details": {
+            "status": "calculated",
+            "salary": 36.0,
+            "service_revenue": 0,
+            "service_cost": 0,
+            "service_net": 0,
+            "service_hours": 0,
+            "formula": "salary_monthly * paid_months + bonus + service_units * (service_unit_price - service_variable_cost) - service_fixed_cost"
+          }
+        }
+      ],
+      "strength_ids": [
+        "S1"
+      ],
+      "evidence_refs": [
+        "U1",
+        "U2",
+        "U4"
+      ],
+      "fit_reason": {
+        "kind": "inference",
+        "value": "需求澄清与方案表达可能支持相邻岗位，但尚缺目标岗位要求；先核查差距与作品证明，再考虑迁移。",
+        "evidence_refs": [
+          "U2",
+          "U4"
+        ],
+        "assumption_refs": [],
+        "unknown_refs": []
+      },
+      "capacity_status": "proposed",
+      "new_capabilities": [
+        "识别目标岗位的真实任务要求",
+        "用一个作品证明可迁移能力，而非只凭职称"
+      ],
+      "market_feedback_needed": [
+        "有实际职责方或需求方反馈后再判断"
+      ],
+      "growth_conditions": [
+        "目标岗位匹配",
+        "有真实岗位窗口及可承受调整期"
+      ],
+      "inflection_reason": "转岗过渡可能降低当年收入；进入职责后的回报仍取决于真实岗位",
+      "risk": "需要寻找有效岗位资料并补作品，尚无录用或收入保证；暂不辞职。",
+      "continue_condition": "获得真实使用反馈且容量允许",
+      "stop_condition": "与意愿或容量冲突时暂停",
+      "unknown_refs": [
+        "N1"
+      ],
+      "projection_model": {
+        "years": [
+          {
+            "year": 1,
+            "inputs": {
+              "salary_monthly": {
+                "kind": "assumption",
+                "value": 1.8333333333333333,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "paid_months": {
+                "kind": "assumption",
+                "value": 12,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "bonus": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_units": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_unit_price": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_variable_cost": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_fixed_cost": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "hours_per_unit": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_hours_budget": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              }
+            },
+            "explanation": "纯合成参数演示：该年假设月薪×12，不是用户愿望输入，也不是实际薪酬资料"
+          },
+          {
+            "year": 2,
+            "inputs": {
+              "salary_monthly": {
+                "kind": "assumption",
+                "value": 2.0833333333333335,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "paid_months": {
+                "kind": "assumption",
+                "value": 12,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "bonus": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_units": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_unit_price": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_variable_cost": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_fixed_cost": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "hours_per_unit": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_hours_budget": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              }
+            },
+            "explanation": "纯合成参数演示：该年假设月薪×12，不是用户愿望输入，也不是实际薪酬资料"
+          },
+          {
+            "year": 3,
+            "inputs": {
+              "salary_monthly": {
+                "kind": "assumption",
+                "value": 2.4166666666666665,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "paid_months": {
+                "kind": "assumption",
+                "value": 12,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "bonus": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_units": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_unit_price": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_variable_cost": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_fixed_cost": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "hours_per_unit": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_hours_budget": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              }
+            },
+            "explanation": "纯合成参数演示：该年假设月薪×12，不是用户愿望输入，也不是实际薪酬资料"
+          },
+          {
+            "year": 4,
+            "inputs": {
+              "salary_monthly": {
+                "kind": "assumption",
+                "value": 2.6666666666666665,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "paid_months": {
+                "kind": "assumption",
+                "value": 12,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "bonus": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_units": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_unit_price": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_variable_cost": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_fixed_cost": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "hours_per_unit": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_hours_budget": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              }
+            },
+            "explanation": "纯合成参数演示：该年假设月薪×12，不是用户愿望输入，也不是实际薪酬资料"
+          },
+          {
+            "year": 5,
+            "inputs": {
+              "salary_monthly": {
+                "kind": "assumption",
+                "value": 3.0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "paid_months": {
+                "kind": "assumption",
+                "value": 12,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "bonus": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_units": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_unit_price": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_variable_cost": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_fixed_cost": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "hours_per_unit": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_hours_budget": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              }
+            },
+            "explanation": "纯合成参数演示：该年假设月薪×12，不是用户愿望输入，也不是实际薪酬资料"
+          }
+        ],
+        "sensitivity_cases": [
+          {
+            "name": "假定薪资较中央参数低15%",
+            "year": 5,
+            "inputs": {
+              "salary_monthly": {
+                "kind": "assumption",
+                "value": 2.55,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "paid_months": {
+                "kind": "assumption",
+                "value": 12,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "bonus": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_units": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_unit_price": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_variable_cost": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_fixed_cost": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "hours_per_unit": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_hours_budget": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              }
+            },
+            "explanation": "仅演示敏感性计算，非概率边界"
+          },
+          {
+            "name": "假定薪资较中央参数高10%",
+            "year": 5,
+            "inputs": {
+              "salary_monthly": {
+                "kind": "assumption",
+                "value": 3.3000000000000003,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "paid_months": {
+                "kind": "assumption",
+                "value": 12,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "bonus": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_units": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_unit_price": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_variable_cost": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_fixed_cost": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "hours_per_unit": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_hours_budget": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              }
+            },
+            "explanation": "仅演示敏感性计算，非概率边界"
+          }
+        ]
+      },
+      "analysis_source": "ai_model",
+      "sensitivity": [
+        {
+          "name": "假定薪资较中央参数低15%",
+          "year": 5,
+          "value": 30.6,
+          "explanation": "仅演示敏感性计算，非概率边界",
+          "calculation_details": {
+            "status": "calculated",
+            "salary": 30.599999999999998,
+            "service_revenue": 0,
+            "service_cost": 0,
+            "service_net": 0,
+            "service_hours": 0,
+            "formula": "salary_monthly * paid_months + bonus + service_units * (service_unit_price - service_variable_cost) - service_fixed_cost"
+          },
+          "note": "条件敏感性，不是概率或置信区间"
+        },
+        {
+          "name": "假定薪资较中央参数高10%",
+          "year": 5,
+          "value": 39.6,
+          "explanation": "仅演示敏感性计算，非概率边界",
+          "calculation_details": {
+            "status": "calculated",
+            "salary": 39.6,
+            "service_revenue": 0,
+            "service_cost": 0,
+            "service_net": 0,
+            "service_hours": 0,
+            "formula": "salary_monthly * paid_months + bonus + service_units * (service_unit_price - service_variable_cost) - service_fixed_cost"
+          },
+          "note": "条件敏感性，不是概率或置信区间"
+        }
+      ],
+      "reader_cost": "需要寻找有效岗位资料并补作品，尚无录用或收入保证；暂不辞职。",
+      "value_map": {
+        "audience": "相邻岗位的职责评价者",
+        "deliverable": "对齐真实要求的一份任务作品",
+        "income_mechanism": "岗位迁移后的薪酬，需市场与实际机会验证",
+        "first_test": "作品能否证明关键入场能力"
+      }
+    },
+    {
+      "id": "C",
+      "name": "内部职责组合",
+      "mechanism": "内部职责组合",
+      "status": "exploratory",
+      "annual": [
+        {
+          "year": 0,
+          "formula": null,
+          "kind": "fact",
+          "value": 24,
+          "evidence_refs": [
+            "U1"
+          ],
+          "assumption_refs": [],
+          "unknown_refs": []
+        },
+        {
+          "year": 1,
+          "value": 25.0,
+          "kind": "assumption",
+          "evidence_refs": [],
+          "assumption_refs": [
+            "H1"
+          ],
+          "unknown_refs": [],
+          "formula": {
+            "operation": "sum",
+            "inputs": [
+              {
+                "kind": "assumption",
+                "value": 25.0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              }
+            ]
+          },
+          "calculation_details": {
+            "status": "calculated",
+            "salary": 25.0,
+            "service_revenue": 0,
+            "service_cost": 0,
+            "service_net": 0,
+            "service_hours": 0,
+            "formula": "salary_monthly * paid_months + bonus + service_units * (service_unit_price - service_variable_cost) - service_fixed_cost"
+          }
+        },
+        {
+          "year": 2,
+          "value": 26.0,
+          "kind": "assumption",
+          "evidence_refs": [],
+          "assumption_refs": [
+            "H1"
+          ],
+          "unknown_refs": [],
+          "formula": {
+            "operation": "sum",
+            "inputs": [
+              {
+                "kind": "assumption",
+                "value": 26.0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              }
+            ]
+          },
+          "calculation_details": {
+            "status": "calculated",
+            "salary": 26.0,
+            "service_revenue": 0,
+            "service_cost": 0,
+            "service_net": 0,
+            "service_hours": 0,
+            "formula": "salary_monthly * paid_months + bonus + service_units * (service_unit_price - service_variable_cost) - service_fixed_cost"
+          }
+        },
+        {
+          "year": 3,
+          "value": 28.0,
+          "kind": "assumption",
+          "evidence_refs": [],
+          "assumption_refs": [
+            "H1"
+          ],
+          "unknown_refs": [],
+          "formula": {
+            "operation": "sum",
+            "inputs": [
+              {
+                "kind": "assumption",
+                "value": 28.0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              }
+            ]
+          },
+          "calculation_details": {
+            "status": "calculated",
+            "salary": 28.0,
+            "service_revenue": 0,
+            "service_cost": 0,
+            "service_net": 0,
+            "service_hours": 0,
+            "formula": "salary_monthly * paid_months + bonus + service_units * (service_unit_price - service_variable_cost) - service_fixed_cost"
+          }
+        },
+        {
+          "year": 4,
+          "value": 29.0,
+          "kind": "assumption",
+          "evidence_refs": [],
+          "assumption_refs": [
+            "H1"
+          ],
+          "unknown_refs": [],
+          "formula": {
+            "operation": "sum",
+            "inputs": [
+              {
+                "kind": "assumption",
+                "value": 29.0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              }
+            ]
+          },
+          "calculation_details": {
+            "status": "calculated",
+            "salary": 29.0,
+            "service_revenue": 0,
+            "service_cost": 0,
+            "service_net": 0,
+            "service_hours": 0,
+            "formula": "salary_monthly * paid_months + bonus + service_units * (service_unit_price - service_variable_cost) - service_fixed_cost"
+          }
+        },
+        {
+          "year": 5,
+          "value": 31.0,
+          "kind": "assumption",
+          "evidence_refs": [],
+          "assumption_refs": [
+            "H1"
+          ],
+          "unknown_refs": [],
+          "formula": {
+            "operation": "sum",
+            "inputs": [
+              {
+                "kind": "assumption",
+                "value": 31.0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              }
+            ]
+          },
+          "calculation_details": {
+            "status": "calculated",
+            "salary": 31.0,
+            "service_revenue": 0,
+            "service_cost": 0,
+            "service_net": 0,
+            "service_hours": 0,
+            "formula": "salary_monthly * paid_months + bonus + service_units * (service_unit_price - service_variable_cost) - service_fixed_cost"
+          }
+        }
+      ],
+      "strength_ids": [
+        "S1"
+      ],
+      "evidence_refs": [
+        "U1",
+        "U2",
+        "U4"
+      ],
+      "fit_reason": {
+        "kind": "inference",
+        "value": "团队曾复用材料，提供了内部协作线索；是否存在稳定交接问题及明确职责归属，还需要组织内的真实反馈。",
+        "evidence_refs": [
+          "U2",
+          "U4"
+        ],
+        "assumption_refs": [],
+        "unknown_refs": []
+      },
+      "capacity_status": "proposed",
+      "new_capabilities": [
+        "区分交接问题与责任划分问题",
+        "在不无限加码的前提下明确交付边界"
+      ],
+      "market_feedback_needed": [
+        "有实际职责方或需求方反馈后再判断"
+      ],
+      "growth_conditions": [
+        "需求被实际使用证明",
+        "新增职责、投入和评价边界得到确认"
+      ],
+      "inflection_reason": "内部确认更大职责及对应评价方式后才可能影响回报",
+      "risk": "需要内部协作与边界协商；职责增加而回报机制不清时应暂停扩张。",
+      "continue_condition": "获得真实使用反馈且容量允许",
+      "stop_condition": "与意愿或容量冲突时暂停",
+      "unknown_refs": [
+        "N1"
+      ],
+      "projection_model": {
+        "years": [
+          {
+            "year": 1,
+            "inputs": {
+              "salary_monthly": {
+                "kind": "assumption",
+                "value": 2.0833333333333335,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "paid_months": {
+                "kind": "assumption",
+                "value": 12,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "bonus": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_units": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_unit_price": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_variable_cost": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_fixed_cost": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "hours_per_unit": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_hours_budget": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              }
+            },
+            "explanation": "纯合成参数演示：该年假设月薪×12，不是用户愿望输入，也不是实际薪酬资料"
+          },
+          {
+            "year": 2,
+            "inputs": {
+              "salary_monthly": {
+                "kind": "assumption",
+                "value": 2.1666666666666665,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "paid_months": {
+                "kind": "assumption",
+                "value": 12,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "bonus": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_units": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_unit_price": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_variable_cost": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_fixed_cost": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "hours_per_unit": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_hours_budget": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              }
+            },
+            "explanation": "纯合成参数演示：该年假设月薪×12，不是用户愿望输入，也不是实际薪酬资料"
+          },
+          {
+            "year": 3,
+            "inputs": {
+              "salary_monthly": {
+                "kind": "assumption",
+                "value": 2.3333333333333335,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "paid_months": {
+                "kind": "assumption",
+                "value": 12,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "bonus": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_units": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_unit_price": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_variable_cost": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_fixed_cost": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "hours_per_unit": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_hours_budget": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              }
+            },
+            "explanation": "纯合成参数演示：该年假设月薪×12，不是用户愿望输入，也不是实际薪酬资料"
+          },
+          {
+            "year": 4,
+            "inputs": {
+              "salary_monthly": {
+                "kind": "assumption",
+                "value": 2.4166666666666665,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "paid_months": {
+                "kind": "assumption",
+                "value": 12,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "bonus": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_units": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_unit_price": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_variable_cost": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_fixed_cost": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "hours_per_unit": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_hours_budget": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              }
+            },
+            "explanation": "纯合成参数演示：该年假设月薪×12，不是用户愿望输入，也不是实际薪酬资料"
+          },
+          {
+            "year": 5,
+            "inputs": {
+              "salary_monthly": {
+                "kind": "assumption",
+                "value": 2.5833333333333335,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "paid_months": {
+                "kind": "assumption",
+                "value": 12,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "bonus": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_units": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_unit_price": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_variable_cost": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_fixed_cost": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "hours_per_unit": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_hours_budget": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              }
+            },
+            "explanation": "纯合成参数演示：该年假设月薪×12，不是用户愿望输入，也不是实际薪酬资料"
+          }
+        ],
+        "sensitivity_cases": [
+          {
+            "name": "假定薪资较中央参数低15%",
+            "year": 5,
+            "inputs": {
+              "salary_monthly": {
+                "kind": "assumption",
+                "value": 2.1958333333333333,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "paid_months": {
+                "kind": "assumption",
+                "value": 12,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "bonus": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_units": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_unit_price": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_variable_cost": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_fixed_cost": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "hours_per_unit": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_hours_budget": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              }
+            },
+            "explanation": "仅演示敏感性计算，非概率边界"
+          },
+          {
+            "name": "假定薪资较中央参数高10%",
+            "year": 5,
+            "inputs": {
+              "salary_monthly": {
+                "kind": "assumption",
+                "value": 2.8416666666666672,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "paid_months": {
+                "kind": "assumption",
+                "value": 12,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "bonus": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_units": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_unit_price": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_variable_cost": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_fixed_cost": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "hours_per_unit": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              },
+              "service_hours_budget": {
+                "kind": "assumption",
+                "value": 0,
+                "evidence_refs": [],
+                "assumption_refs": [
+                  "H1"
+                ],
+                "unknown_refs": []
+              }
+            },
+            "explanation": "仅演示敏感性计算，非概率边界"
+          }
+        ]
+      },
+      "analysis_source": "ai_model",
+      "sensitivity": [
+        {
+          "name": "假定薪资较中央参数低15%",
+          "year": 5,
+          "value": 26.35,
+          "explanation": "仅演示敏感性计算，非概率边界",
+          "calculation_details": {
+            "status": "calculated",
+            "salary": 26.35,
+            "service_revenue": 0,
+            "service_cost": 0,
+            "service_net": 0,
+            "service_hours": 0,
+            "formula": "salary_monthly * paid_months + bonus + service_units * (service_unit_price - service_variable_cost) - service_fixed_cost"
+          },
+          "note": "条件敏感性，不是概率或置信区间"
+        },
+        {
+          "name": "假定薪资较中央参数高10%",
+          "year": 5,
+          "value": 34.1,
+          "explanation": "仅演示敏感性计算，非概率边界",
+          "calculation_details": {
+            "status": "calculated",
+            "salary": 34.10000000000001,
+            "service_revenue": 0,
+            "service_cost": 0,
+            "service_net": 0,
+            "service_hours": 0,
+            "formula": "salary_monthly * paid_months + bonus + service_units * (service_unit_price - service_variable_cost) - service_fixed_cost"
+          },
+          "note": "条件敏感性，不是概率或置信区间"
+        }
+      ],
+      "reader_cost": "需要内部协作与边界协商；职责增加而回报机制不清时应暂停扩张。",
+      "value_map": {
+        "audience": "有具体交接需求的内部团队",
+        "deliverable": "在一次真实交接中使用的说明",
+        "income_mechanism": "内部职责与评价机制调整，需组织确认",
+        "first_test": "是否减少重复澄清，且职责有明确归属"
+      }
+    }
+  ],
+  "action_plans": [
+    {
+      "path_id": "A",
+      "hypotheses": [
+        "方案结构能在第二个实际场景被使用，并且不会造成过高准备成本",
+        "单位存在可用该交付证明的职责窗口"
+      ],
+      "tasks": [
+        {
+          "day": 7,
+          "name": "整理一页方案，先检验理解",
+          "description": "选一份可脱敏的已有方案，写客户条件、两种选项和推荐理由",
+          "strength_ids": [
+            "S1"
+          ],
+          "steps": [
+            "选一份可脱敏的已有方案，写客户条件、两种选项和推荐理由",
+            "在允许分享且对方愿意时，请一位熟悉任务的人复述推荐理由",
+            "记录复述正确处和误解处，修改一处最关键表达"
+          ],
+          "estimated_minutes": 60,
+          "estimate_kind": "planning_assumption",
+          "resources": [
+            "本人已有且允许使用的资料",
+            "本阶段反馈渠道需实际取得，未取得时保留未知"
+          ],
+          "deliverable": "一页组合说明＋一条复述记录",
+          "metric": "对方是否说清推荐理由；记录偏差，不只记录“挺好”",
+          "completion_rule": "能复述关键理由则进入真实使用；不能则只修改对应表达再测",
+          "feedback_method": "一位熟悉该任务、愿意反馈的人；无法找到时保留未验证",
+          "risk": "每周可投入约180分钟；工作波动、共享权限或反馈窗口可能使实验延期，不挤占基本恢复时间。",
+          "fallback": "无法取得反馈时先完成草稿，延后理解验证，不假定已有效",
+          "assumption_refs": [
+            "H1"
+          ],
+          "unknown_refs": [
+            "N1"
+          ],
+          "review_condition": "能复述关键理由则进入真实使用；不能则只修改对应表达再测",
+          "feedback_target": "一位熟悉该任务、愿意反馈的人；无法找到时保留未验证",
+          "time_scope": "本阶段累计，含准备、沟通与记录；规划估时"
+        },
+        {
+          "day": 30,
+          "name": "在第二个真实场景检验复用",
+          "description": "选择一次产品与限制条件不完全相同的真实沟通",
+          "strength_ids": [
+            "S1"
+          ],
+          "steps": [
+            "选择一次产品与限制条件不完全相同的真实沟通",
+            "沿用结构并记录需要改变的部分及准备时间",
+            "在有反馈时记录实际使用、误解和额外澄清"
+          ],
+          "estimated_minutes": 120,
+          "estimate_kind": "planning_assumption",
+          "resources": [
+            "本人已有且允许使用的资料",
+            "本阶段反馈渠道需实际取得，未取得时保留未知"
+          ],
+          "deliverable": "两场景对照记录：使用情况、调整点和投入",
+          "metric": "是否实际复用；哪些条件改变后结构失效；累计用了多久",
+          "completion_rule": "两场景均有使用线索才谈复用；若仅得到口头肯定，继续检验而不称稳定优势",
+          "feedback_method": "实际使用者的行为与允许记录的反馈",
+          "risk": "每周可投入约180分钟；工作波动、共享权限或反馈窗口可能使实验延期，不挤占基本恢复时间。",
+          "fallback": "本月没有第二个适当场景就延期，不制造客户或结果",
+          "assumption_refs": [
+            "H1"
+          ],
+          "unknown_refs": [
+            "N1"
+          ],
+          "review_condition": "两场景均有使用线索才谈复用；若仅得到口头肯定，继续检验而不称稳定优势",
+          "feedback_target": "实际使用者的行为与允许记录的反馈",
+          "time_scope": "本阶段累计，含准备、沟通与记录；规划估时"
+        },
+        {
+          "day": 90,
+          "name": "核对一项更大职责是否存在",
+          "description": "整理已经取得的使用记录，区分本人贡献和其他因素",
+          "strength_ids": [
+            "S1"
+          ],
+          "steps": [
+            "整理已经取得的使用记录，区分本人贡献和其他因素",
+            "若有合适内部讨论窗口，核对一项具体职责、交付标准及回报评价机制",
+            "把明确回应、未回应和需要补的证据分别记录"
+          ],
+          "estimated_minutes": 180,
+          "estimate_kind": "planning_assumption",
+          "resources": [
+            "本人已有且允许使用的资料",
+            "本阶段反馈渠道需实际取得，未取得时保留未知"
+          ],
+          "deliverable": "职责—交付标准—评价方式的一页核对表",
+          "metric": "是否存在可讨论的职责窗口和明确标准，而非是否立刻加薪",
+          "completion_rule": "有明确职责与可承受投入才扩大；没有窗口则保留能力材料，比较B或暂停扩张",
+          "feedback_method": "可明确该职责要求的内部角色；没有窗口则记录现实限制",
+          "risk": "每周可投入约180分钟；工作波动、共享权限或反馈窗口可能使实验延期，不挤占基本恢复时间。",
+          "fallback": "未获得内部回应时不把原因归为能力不足，也不持续无边界加任务",
+          "assumption_refs": [
+            "H1"
+          ],
+          "unknown_refs": [
+            "N1"
+          ],
+          "review_condition": "有明确职责与可承受投入才扩大；没有窗口则保留能力材料，比较B或暂停扩张",
+          "feedback_target": "可明确该职责要求的内部角色；没有窗口则记录现实限制",
+          "time_scope": "本阶段累计，含准备、沟通与记录；规划估时"
+        }
+      ],
+      "decision_rules": {
+        "continue": "有明确职责与可承受投入才扩大；没有窗口则保留能力材料，比较B或暂停扩张",
+        "adjust": "有具体反馈指出可修正的任务或方向偏差",
+        "pause": "缺真实需求、缺职责窗口或生活投入不可承受；未收到反馈本身不等于需求不存在"
+      },
+      "final_decision": null,
+      "decision_status": "pending"
+    },
+    {
+      "path_id": "B",
+      "hypotheses": [
+        "相邻岗位确实需要本人已有能力，关键缺口可以用一个作品检验",
+        "转换条件符合不先辞职与保留生活节奏的边界"
+      ],
+      "tasks": [
+        {
+          "day": 7,
+          "name": "先核对一个相邻岗位的真实要求",
+          "description": "选择一个与本人任务邻近的岗位方向",
+          "strength_ids": [
+            "S1"
+          ],
+          "steps": [
+            "选择一个与本人任务邻近的岗位方向",
+            "实际查阅可访问的岗位资料，记录地区、职责、经验、来源与日期",
+            "提取最多三条反复出现的关键任务；资料不足就记录实际数量"
+          ],
+          "estimated_minutes": 90,
+          "estimate_kind": "planning_assumption",
+          "resources": [
+            "本人已有且允许使用的资料",
+            "本阶段反馈渠道需实际取得，未取得时保留未知"
+          ],
+          "deliverable": "一页目标任务清单及可追溯来源",
+          "metric": "能否找到职责可比的真实资料；哪些要求已有证据、哪些没有",
+          "completion_rule": "要求与现有经历有实质交集才制作作品；若方向不邻近，先调整岗位范围",
+          "feedback_method": "实际岗位资料；不以“熟人说适合”替代任务要求",
+          "risk": "每周可投入约180分钟；工作波动、共享权限或反馈窗口可能使实验延期，不挤占基本恢复时间。",
+          "fallback": "找不到可比资料时扩大检索但不捏造要求，也不立即判断无机会",
+          "assumption_refs": [
+            "H1"
+          ],
+          "unknown_refs": [
+            "N1"
+          ],
+          "review_condition": "要求与现有经历有实质交集才制作作品；若方向不邻近，先调整岗位范围",
+          "feedback_target": "实际岗位资料；不以“熟人说适合”替代任务要求",
+          "time_scope": "本阶段累计，含准备、沟通与记录；规划估时"
+        },
+        {
+          "day": 30,
+          "name": "做一份对齐关键要求的任务作品",
+          "description": "从已核对的要求中选一个最关键任务",
+          "strength_ids": [
+            "S1"
+          ],
+          "steps": [
+            "从已核对的要求中选一个最关键任务",
+            "用公开或可脱敏材料完成一个最小作品，标明本人和AI各自贡献",
+            "按目标要求逐项检查，若有合适评价者再申请具体反馈"
+          ],
+          "estimated_minutes": 150,
+          "estimate_kind": "planning_assumption",
+          "resources": [
+            "本人已有且允许使用的资料",
+            "本阶段反馈渠道需实际取得，未取得时保留未知"
+          ],
+          "deliverable": "一个任务作品＋要求与证据对照表",
+          "metric": "作品是否完成目标任务，以及仍无法证明的能力缺口",
+          "completion_rule": "作品能证明关键任务才进入进一步机会核验；不能则只补具体缺口",
+          "feedback_method": "已核对的任务标准；熟悉岗位的人可补反馈但不假定存在",
+          "risk": "每周可投入约180分钟；工作波动、共享权限或反馈窗口可能使实验延期，不挤占基本恢复时间。",
+          "fallback": "没有评价渠道时保留自查与未验证项，不把作品自评写成岗位认可",
+          "assumption_refs": [
+            "H1"
+          ],
+          "unknown_refs": [
+            "N1"
+          ],
+          "review_condition": "作品能证明关键任务才进入进一步机会核验；不能则只补具体缺口",
+          "feedback_target": "已核对的任务标准；熟悉岗位的人可补反馈但不假定存在",
+          "time_scope": "本阶段累计，含准备、沟通与记录；规划估时"
+        },
+        {
+          "day": 90,
+          "name": "用真实岗位反馈重评转向条件",
+          "description": "整理目标要求、作品证明和仍缺能力",
+          "strength_ids": [
+            "S1"
+          ],
+          "steps": [
+            "整理目标要求、作品证明和仍缺能力",
+            "在本人愿意且有可用渠道时，核对岗位条件与进入门槛，不自动投递",
+            "比较调整期、生活节奏与可能回报的来源，保留当前主业作为可逆选择"
+          ],
+          "estimated_minutes": 180,
+          "estimate_kind": "planning_assumption",
+          "resources": [
+            "本人已有且允许使用的资料",
+            "本阶段反馈渠道需实际取得，未取得时保留未知"
+          ],
+          "deliverable": "岗位匹配与转换条件清单",
+          "metric": "真实要求与本人证明是否匹配；调整期是否在风险边界内",
+          "completion_rule": "匹配与调整条件都获得支持再继续；关键门槛不符则改岗位或补能力，不先辞职",
+          "feedback_method": "可核查的职责资料与获得的真实岗位反馈；没有则标未知",
+          "risk": "每周可投入约180分钟；工作波动、共享权限或反馈窗口可能使实验延期，不挤占基本恢复时间。",
+          "fallback": "未获得岗位反馈时延长验证，不把沉默当作能力或市场结论",
+          "assumption_refs": [
+            "H1"
+          ],
+          "unknown_refs": [
+            "N1"
+          ],
+          "review_condition": "匹配与调整条件都获得支持再继续；关键门槛不符则改岗位或补能力，不先辞职",
+          "feedback_target": "可核查的职责资料与获得的真实岗位反馈；没有则标未知",
+          "time_scope": "本阶段累计，含准备、沟通与记录；规划估时"
+        }
+      ],
+      "decision_rules": {
+        "continue": "匹配与调整条件都获得支持再继续；关键门槛不符则改岗位或补能力，不先辞职",
+        "adjust": "有具体反馈指出可修正的任务或方向偏差",
+        "pause": "缺真实需求、缺职责窗口或生活投入不可承受；未收到反馈本身不等于需求不存在"
+      },
+      "final_decision": null,
+      "decision_status": "pending"
+    },
+    {
+      "path_id": "C",
+      "hypotheses": [
+        "团队存在一个具体、可由信息交付缓解的交接问题",
+        "新增职责可以明确归属和投入，不变成无边界额外劳动"
+      ],
+      "tasks": [
+        {
+          "day": 7,
+          "name": "记录一次真实交接卡点",
+          "description": "从已出现的团队复用线索出发，选择一次具体交接",
+          "strength_ids": [
+            "S1"
+          ],
+          "steps": [
+            "从已出现的团队复用线索出发，选择一次具体交接",
+            "记录哪里重复询问、缺什么信息，以及谁需要这部分信息",
+            "区分材料不清与责任未定，避免默认所有问题都能用模板解决"
+          ],
+          "estimated_minutes": 60,
+          "estimate_kind": "planning_assumption",
+          "resources": [
+            "本人已有且允许使用的资料",
+            "本阶段反馈渠道需实际取得，未取得时保留未知"
+          ],
+          "deliverable": "一条交接问题记录：场景、缺口、影响和使用者",
+          "metric": "能否找到具体重复澄清或职责不清的实例，而非笼统说效率低",
+          "completion_rule": "信息缺口明确时才试说明；如果主要是权限或职责问题，换成边界核对",
+          "feedback_method": "参与该次交接且允许讨论的人或已有记录",
+          "risk": "每周可投入约180分钟；工作波动、共享权限或反馈窗口可能使实验延期，不挤占基本恢复时间。",
+          "fallback": "没有真实问题就不制作新模板，保留该路径为待验证",
+          "assumption_refs": [
+            "H1"
+          ],
+          "unknown_refs": [
+            "N1"
+          ],
+          "review_condition": "信息缺口明确时才试说明；如果主要是权限或职责问题，换成边界核对",
+          "feedback_target": "参与该次交接且允许讨论的人或已有记录",
+          "time_scope": "本阶段累计，含准备、沟通与记录；规划估时"
+        },
+        {
+          "day": 30,
+          "name": "在一次交接里试用最小说明",
+          "description": "只为已确认的信息缺口写最小交接说明",
+          "strength_ids": [
+            "S1"
+          ],
+          "steps": [
+            "只为已确认的信息缺口写最小交接说明",
+            "在获得允许的实际交接中使用一次",
+            "记录额外澄清、遗漏与维护时间，说明任务复杂度差异"
+          ],
+          "estimated_minutes": 120,
+          "estimate_kind": "planning_assumption",
+          "resources": [
+            "本人已有且允许使用的资料",
+            "本阶段反馈渠道需实际取得，未取得时保留未知"
+          ],
+          "deliverable": "一份被实际试用的说明＋澄清记录",
+          "metric": "实际使用情况、额外澄清与维护投入；只作观察，不声称一次试用证明因果",
+          "completion_rule": "被使用且维护可承受才扩大；没人使用先问原因，不靠增加篇幅解决",
+          "feedback_method": "该次交接的使用记录和参与者具体反馈",
+          "risk": "每周可投入约180分钟；工作波动、共享权限或反馈窗口可能使实验延期，不挤占基本恢复时间。",
+          "fallback": "若无法获准试用，停在草稿，不制造“提高效率”的结果",
+          "assumption_refs": [
+            "H1"
+          ],
+          "unknown_refs": [
+            "N1"
+          ],
+          "review_condition": "被使用且维护可承受才扩大；没人使用先问原因，不靠增加篇幅解决",
+          "feedback_target": "该次交接的使用记录和参与者具体反馈",
+          "time_scope": "本阶段累计，含准备、沟通与记录；规划估时"
+        },
+        {
+          "day": 90,
+          "name": "确认职责归属与投入边界",
+          "description": "汇总试用后的实际收益和维护成本",
+          "strength_ids": [
+            "S1"
+          ],
+          "steps": [
+            "汇总试用后的实际收益和维护成本",
+            "如有内部沟通窗口，核对谁维护、谁负责以及如何评价这项职责",
+            "检查新增投入是否侵占本人恢复与家庭边界"
+          ],
+          "estimated_minutes": 150,
+          "estimate_kind": "planning_assumption",
+          "resources": [
+            "本人已有且允许使用的资料",
+            "本阶段反馈渠道需实际取得，未取得时保留未知"
+          ],
+          "deliverable": "职责归属、维护时间与评价方式的确认记录",
+          "metric": "是否有真实使用需求、明确责任人和可承受投入；不以多做事本身当成长",
+          "completion_rule": "需求和边界都清楚才扩大；只有额外劳动无评价机制时暂停扩张",
+          "feedback_method": "能明确内部职责的角色与使用者；缺窗口则保留未知",
+          "risk": "每周可投入约180分钟；工作波动、共享权限或反馈窗口可能使实验延期，不挤占基本恢复时间。",
+          "fallback": "职责或回报未明确时维持最小版本，不自动承担长期维护",
+          "assumption_refs": [
+            "H1"
+          ],
+          "unknown_refs": [
+            "N1"
+          ],
+          "review_condition": "需求和边界都清楚才扩大；只有额外劳动无评价机制时暂停扩张",
+          "feedback_target": "能明确内部职责的角色与使用者；缺窗口则保留未知",
+          "time_scope": "本阶段累计，含准备、沟通与记录；规划估时"
+        }
+      ],
+      "decision_rules": {
+        "continue": "需求和边界都清楚才扩大；只有额外劳动无评价机制时暂停扩张",
+        "adjust": "有具体反馈指出可修正的任务或方向偏差",
+        "pause": "缺真实需求、缺职责窗口或生活投入不可承受；未收到反馈本身不等于需求不存在"
+      },
+      "final_decision": null,
+      "decision_status": "pending"
+    }
+  ],
+  "selected_path_id": null,
+  "recommended_path_id": "A",
+  "reviews": {
+    "ADVANTAGE_EVIDENCE_AUDITOR": {
+      "status": "limited",
+      "issues": [
+        "仅合成少量输入；不作确定推荐或容量通过结论"
+      ],
+      "evidence_refs": [
+        "U1"
+      ],
+      "unknown_refs": [
+        "N1"
+      ]
+    },
+    "INCOME_PATH_AUDITOR": {
+      "status": "limited",
+      "issues": [
+        "仅合成少量输入；不作确定推荐或容量通过结论"
+      ],
+      "evidence_refs": [
+        "U1"
+      ],
+      "unknown_refs": [
+        "N1"
+      ]
+    },
+    "ACTION_PLAN_AUDITOR": {
+      "status": "limited",
+      "issues": [
+        "仅合成少量输入；不作确定推荐或容量通过结论"
+      ],
+      "evidence_refs": [
+        "U1"
+      ],
+      "unknown_refs": [
+        "N1"
+      ]
+    }
+  },
+  "reports": [
+    {
+      "id": "REPORT_01",
+      "report_id": "SYNTHETIC-读者版报告",
+      "revision": 1
+    },
+    {
+      "id": "REPORT_02",
+      "report_id": "SYNTHETIC-读者版报告",
+      "revision": 1
+    },
+    {
+      "id": "REPORT_03",
+      "report_id": "SYNTHETIC-读者版报告",
+      "revision": 1
+    }
+  ],
+  "analysis": {
+    "cross_dimension_observations": "组织选项的做法与连续专注偏好可能相互支持；长期出差路线可能与家庭价值冲突。这是基于自述的条件分析。",
+    "priority_issue": "先验证这一页方案是否能在另一个真实场景重复使用，而非立即把它变成外部付费服务。"
+  },
+  "boundary_analysis": {
+    "current_structure": "合成经历中，当前收入来自售前职责。已有方案说明被复用，但还没有承担更大交付范围与相应回报的证据；这是职责假设，不代表个人能力已到上限。",
+    "personal_evidence_refs": [
+      "U2"
+    ],
+    "current_role_range": {
+      "low": 22,
+      "high": 28,
+      "status": "simulation",
+      "unit": "万元/年",
+      "scope": "虚构现职责示例，不是实际岗位薪酬调查",
+      "source_refs": [],
+      "assumption_refs": [
+        "H1"
+      ],
+      "comparability_note": "本例未提供可比岗位样本，因此不可作市场参考"
+    },
+    "target_role_range": {
+      "low": 30,
+      "high": 38,
+      "status": "simulation",
+      "unit": "万元/年",
+      "scope": "虚构目标职责示例，未获真实招聘或薪酬来源支持",
+      "source_refs": [],
+      "assumption_refs": [
+        "H1"
+      ],
+      "comparability_note": "仅用于看样式；真实报告必须核对地区、职责、资历和奖金口径"
+    },
+    "gap_analysis": [
+      {
+        "capability": "把组织选项的做法，在第二个真实场景中复用",
+        "personal_evidence_refs": [
+          "U2"
+        ],
+        "market_requirement": "候选目标为能独立形成可比较方案的职责；目前没有实际目标岗位材料，不能声称这是雇主确定要求。",
+        "market_evidence_refs": [],
+        "verification_task": "拿一份脱敏材料在另一个允许分享的真实任务中使用，记录是否听懂和实际使用情况。"
+      },
+      {
+        "capability": "从完成材料，走到承担明确交付责任",
+        "personal_evidence_refs": [
+          "U2"
+        ],
+        "market_requirement": "扩大职责通常涉及不同任务与评价方式；需要实际岗位或团队负责人核对，不能只凭“方案做得好”推断晋升。",
+        "market_evidence_refs": [],
+        "verification_task": "在本人同意且有合适窗口时，核对一个具体职责范围、交付标准与回报机制。"
+      }
+    ],
+    "transition_conditions": [
+      "第二个场景仍有实际使用",
+      "能找到具体职责或目标岗位窗口",
+      "投入不突破每周180分钟和生活边界"
+    ],
+    "validation_plan": "以A为优先验证候选：先检验理解，再检验真实复用，最后核对职责窗口。",
+    "path_id": "A",
+    "limitations": [
+      "本演示没有真实岗位薪酬样本，台阶和曲线金额仅用于样式检查",
+      "一次方案复用不能证明稳定技能，也不能证明工资提升",
+      "真实市场机会和本人生活条件改变时需重估"
+    ],
+    "reader_structure": "当前可确认收入绑定售前职责；公司职级、薪酬带和实际岗位样本尚未核对，因此不能判断已到顶。",
+    "personal_signal": "有一次整理需求、形成组合说明并被团队复用的线索。先验证重复使用，再讨论能否承担更大交付。"
+  },
+  "decision_brief": {
+    "headline": "先验证主业里的方案复用，再讨论扩大职责。",
+    "reasons": [
+      "已有一页组合说明被客户理解、被团队复用的经历，比尚未核实的新岗位更接近实际。",
+      "你希望提高主业回报，又要保留生活节奏；先在现有场景做小实验，转换成本较低。"
+    ],
+    "evidence_refs": [
+      "U2",
+      "U4"
+    ],
+    "key_condition": "第二个场景仍有实际使用，且单位存在可讨论的职责窗口。",
+    "first_action": "选一份可脱敏方案，整理成“客户条件—两种选择—推荐理由”的一页说明，先检验别人是否理解。",
+    "change_trigger": "若重复使用无价值，或内部没有职责机会，则调整A；B取得真实岗位匹配证据时重新比较。"
+  },
+  "reader_quality": {
+    "passed": true,
+    "issues": [],
+    "life_blueprints": {
+      "A": {
+        "status": "limited",
+        "missing_fields": [
+          "daily_life",
+          "work_style",
+          "time_and_relationships",
+          "tradeoff",
+          "curiosity",
+          "milestones"
+        ]
+      },
+      "B": {
+        "status": "limited",
+        "missing_fields": [
+          "daily_life",
+          "work_style",
+          "time_and_relationships",
+          "tradeoff",
+          "curiosity",
+          "milestones"
+        ]
+      },
+      "C": {
+        "status": "limited",
+        "missing_fields": [
+          "daily_life",
+          "work_style",
+          "time_and_relationships",
+          "tradeoff",
+          "curiosity",
+          "milestones"
+        ]
+      }
+    },
+    "note": "这是重复与一致性启发式检查，不证明建议精准、证据真实或收入可兑现。"
+  }
+}

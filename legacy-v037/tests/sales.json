@@ -1,0 +1,965 @@
+{
+  "schema_version": "0.3.7",
+  "report_id": "SIM-sales",
+  "revision": 1,
+  "state": {
+    "mode": "REPORT",
+    "answered_count": 1,
+    "question_budget": 12,
+    "pending_question": null,
+    "selected_path_id": null,
+    "user_confirmed": false
+  },
+  "user_profile": {
+    "stage": {
+      "kind": "fact",
+      "value": "海外销售",
+      "evidence_refs": [
+        "U1"
+      ],
+      "assumption_refs": [],
+      "unknown_refs": []
+    },
+    "goal": {
+      "kind": "unknown",
+      "value": null,
+      "evidence_refs": [],
+      "assumption_refs": [],
+      "unknown_refs": [
+        "N1"
+      ]
+    },
+    "background": {
+      "kind": "fact",
+      "value": "我给客户方案和报价，并解释如何组合；未提供结果。",
+      "evidence_refs": [
+        "U1"
+      ],
+      "assumption_refs": [],
+      "unknown_refs": []
+    }
+  },
+  "constraints": {
+    "weekly_minutes": {
+      "kind": "unknown",
+      "value": null,
+      "evidence_refs": [],
+      "assumption_refs": [],
+      "unknown_refs": [
+        "N1"
+      ]
+    },
+    "budget": {
+      "kind": "unknown",
+      "value": null,
+      "evidence_refs": [],
+      "assumption_refs": [],
+      "unknown_refs": [
+        "N1"
+      ]
+    },
+    "risk": {
+      "kind": "unknown",
+      "value": null,
+      "evidence_refs": [],
+      "assumption_refs": [],
+      "unknown_refs": [
+        "N1"
+      ]
+    }
+  },
+  "quadrants": {
+    "mind": {
+      "life_context": {
+        "kind": "unknown",
+        "value": null,
+        "evidence_refs": [],
+        "assumption_refs": [],
+        "unknown_refs": [
+          "N1"
+        ]
+      },
+      "development": {
+        "level": null,
+        "phase": null,
+        "level_basis": "信息不足",
+        "phase_basis": "信息不足",
+        "evidence_refs": [],
+        "counterevidence_refs": [],
+        "support": "insufficient",
+        "next_transition": "先了解一段真实生活经历",
+        "unknown_refs": [
+          "N1"
+        ]
+      },
+      "observation": {
+        "kind": "unknown",
+        "value": null,
+        "evidence_refs": [],
+        "assumption_refs": [],
+        "unknown_refs": [
+          "N1"
+        ]
+      },
+      "evidence_refs": [],
+      "potential_strength_ids": [],
+      "limitation": {
+        "kind": "unknown",
+        "value": null,
+        "evidence_refs": [],
+        "assumption_refs": [],
+        "unknown_refs": [
+          "N1"
+        ]
+      },
+      "unknown_refs": [
+        "N1"
+      ]
+    },
+    "body": {
+      "life_context": {
+        "kind": "unknown",
+        "value": null,
+        "evidence_refs": [],
+        "assumption_refs": [],
+        "unknown_refs": [
+          "N1"
+        ]
+      },
+      "development": {
+        "level": null,
+        "phase": null,
+        "level_basis": "信息不足",
+        "phase_basis": "信息不足",
+        "evidence_refs": [],
+        "counterevidence_refs": [],
+        "support": "insufficient",
+        "next_transition": "先了解一段真实生活经历",
+        "unknown_refs": [
+          "N1"
+        ]
+      },
+      "observation": {
+        "kind": "unknown",
+        "value": null,
+        "evidence_refs": [],
+        "assumption_refs": [],
+        "unknown_refs": [
+          "N1"
+        ]
+      },
+      "evidence_refs": [],
+      "potential_strength_ids": [],
+      "limitation": {
+        "kind": "unknown",
+        "value": null,
+        "evidence_refs": [],
+        "assumption_refs": [],
+        "unknown_refs": [
+          "N1"
+        ]
+      },
+      "unknown_refs": [
+        "N1"
+      ]
+    },
+    "spirit": {
+      "life_context": {
+        "kind": "unknown",
+        "value": null,
+        "evidence_refs": [],
+        "assumption_refs": [],
+        "unknown_refs": [
+          "N1"
+        ]
+      },
+      "development": {
+        "level": null,
+        "phase": null,
+        "level_basis": "信息不足",
+        "phase_basis": "信息不足",
+        "evidence_refs": [],
+        "counterevidence_refs": [],
+        "support": "insufficient",
+        "next_transition": "先了解一段真实生活经历",
+        "unknown_refs": [
+          "N1"
+        ]
+      },
+      "observation": {
+        "kind": "unknown",
+        "value": null,
+        "evidence_refs": [],
+        "assumption_refs": [],
+        "unknown_refs": [
+          "N1"
+        ]
+      },
+      "evidence_refs": [],
+      "potential_strength_ids": [],
+      "limitation": {
+        "kind": "unknown",
+        "value": null,
+        "evidence_refs": [],
+        "assumption_refs": [],
+        "unknown_refs": [
+          "N1"
+        ]
+      },
+      "unknown_refs": [
+        "N1"
+      ]
+    },
+    "vocation": {
+      "life_context": {
+        "kind": "unknown",
+        "value": null,
+        "evidence_refs": [],
+        "assumption_refs": [],
+        "unknown_refs": [
+          "N1"
+        ]
+      },
+      "development": {
+        "level": null,
+        "phase": null,
+        "level_basis": "信息不足",
+        "phase_basis": "信息不足",
+        "evidence_refs": [],
+        "counterevidence_refs": [],
+        "support": "insufficient",
+        "next_transition": "先了解一段真实生活经历",
+        "unknown_refs": [
+          "N1"
+        ]
+      },
+      "observation": {
+        "kind": "unknown",
+        "value": null,
+        "evidence_refs": [],
+        "assumption_refs": [],
+        "unknown_refs": [
+          "N1"
+        ]
+      },
+      "evidence_refs": [],
+      "potential_strength_ids": [],
+      "limitation": {
+        "kind": "unknown",
+        "value": null,
+        "evidence_refs": [],
+        "assumption_refs": [],
+        "unknown_refs": [
+          "N1"
+        ]
+      },
+      "unknown_refs": [
+        "N1"
+      ]
+    }
+  },
+  "strengths": [],
+  "events": [],
+  "opportunities": [],
+  "evidence_index": [
+    {
+      "id": "U1",
+      "source_type": "synthetic_user",
+      "turn": 1,
+      "quote": "我给客户方案和报价，并解释如何组合；未提供结果。",
+      "status": "active",
+      "verified": false,
+      "url": null,
+      "publisher": null,
+      "access_date": null,
+      "region": null,
+      "role": null,
+      "basis": null
+    }
+  ],
+  "unknowns": [
+    {
+      "id": "N1",
+      "topic": "收入、目标与容量待补",
+      "reason": "测试输入没有提供",
+      "next_check": "真实访谈中只补问一个高价值缺口"
+    }
+  ],
+  "assumptions": [
+    {
+      "id": "H1",
+      "description": "最小实验规划估时，不代表用户空闲容量",
+      "accepted": false,
+      "reason": "测试规划",
+      "failure_condition": "用户没有时间则缩小或延期"
+    }
+  ],
+  "income_basis": {
+    "currency": "CNY",
+    "unit": "万元/年",
+    "tax_basis": "税前工资+副业净贡献",
+    "period": "annual",
+    "composition": "口径候选，需用户确认"
+  },
+  "income_baseline": {
+    "kind": "unknown",
+    "value": null,
+    "evidence_refs": [],
+    "assumption_refs": [],
+    "unknown_refs": [
+      "N1"
+    ]
+  },
+  "income_scenarios": [
+    {
+      "id": "A",
+      "name": "本职方案交付深化",
+      "mechanism": "本职方案交付深化",
+      "status": "exploratory",
+      "annual": [
+        {
+          "year": 0,
+          "formula": null,
+          "kind": "unknown",
+          "value": null,
+          "evidence_refs": [],
+          "assumption_refs": [],
+          "unknown_refs": [
+            "N1"
+          ]
+        },
+        {
+          "year": 1,
+          "formula": null,
+          "kind": "unknown",
+          "value": null,
+          "evidence_refs": [],
+          "assumption_refs": [],
+          "unknown_refs": [
+            "N1"
+          ]
+        },
+        {
+          "year": 2,
+          "formula": null,
+          "kind": "unknown",
+          "value": null,
+          "evidence_refs": [],
+          "assumption_refs": [],
+          "unknown_refs": [
+            "N1"
+          ]
+        },
+        {
+          "year": 3,
+          "formula": null,
+          "kind": "unknown",
+          "value": null,
+          "evidence_refs": [],
+          "assumption_refs": [],
+          "unknown_refs": [
+            "N1"
+          ]
+        },
+        {
+          "year": 4,
+          "formula": null,
+          "kind": "unknown",
+          "value": null,
+          "evidence_refs": [],
+          "assumption_refs": [],
+          "unknown_refs": [
+            "N1"
+          ]
+        },
+        {
+          "year": 5,
+          "formula": null,
+          "kind": "unknown",
+          "value": null,
+          "evidence_refs": [],
+          "assumption_refs": [],
+          "unknown_refs": [
+            "N1"
+          ]
+        }
+      ],
+      "strength_ids": [],
+      "evidence_refs": [
+        "U1"
+      ],
+      "fit_reason": {
+        "kind": "inference",
+        "value": "仅是待核实候选，不构成推荐",
+        "evidence_refs": [
+          "U1"
+        ],
+        "assumption_refs": [],
+        "unknown_refs": []
+      },
+      "capacity_status": "unknown",
+      "new_capabilities": [
+        "待真实实践核实"
+      ],
+      "market_feedback_needed": [
+        "有实际职责方或需求方反馈后再判断"
+      ],
+      "growth_conditions": [
+        "用户认可方向并验证需求"
+      ],
+      "inflection_reason": "取决于后续验证，未设置金额拐点",
+      "risk": "需求与时间均未验证",
+      "continue_condition": "获得真实使用反馈且容量允许",
+      "stop_condition": "与意愿或容量冲突时暂停",
+      "unknown_refs": [
+        "N1"
+      ]
+    },
+    {
+      "id": "B",
+      "name": "相邻售前岗位探索",
+      "mechanism": "相邻售前岗位探索",
+      "status": "exploratory",
+      "annual": [
+        {
+          "year": 0,
+          "formula": null,
+          "kind": "unknown",
+          "value": null,
+          "evidence_refs": [],
+          "assumption_refs": [],
+          "unknown_refs": [
+            "N1"
+          ]
+        },
+        {
+          "year": 1,
+          "formula": null,
+          "kind": "unknown",
+          "value": null,
+          "evidence_refs": [],
+          "assumption_refs": [],
+          "unknown_refs": [
+            "N1"
+          ]
+        },
+        {
+          "year": 2,
+          "formula": null,
+          "kind": "unknown",
+          "value": null,
+          "evidence_refs": [],
+          "assumption_refs": [],
+          "unknown_refs": [
+            "N1"
+          ]
+        },
+        {
+          "year": 3,
+          "formula": null,
+          "kind": "unknown",
+          "value": null,
+          "evidence_refs": [],
+          "assumption_refs": [],
+          "unknown_refs": [
+            "N1"
+          ]
+        },
+        {
+          "year": 4,
+          "formula": null,
+          "kind": "unknown",
+          "value": null,
+          "evidence_refs": [],
+          "assumption_refs": [],
+          "unknown_refs": [
+            "N1"
+          ]
+        },
+        {
+          "year": 5,
+          "formula": null,
+          "kind": "unknown",
+          "value": null,
+          "evidence_refs": [],
+          "assumption_refs": [],
+          "unknown_refs": [
+            "N1"
+          ]
+        }
+      ],
+      "strength_ids": [],
+      "evidence_refs": [
+        "U1"
+      ],
+      "fit_reason": {
+        "kind": "inference",
+        "value": "仅是待核实候选，不构成推荐",
+        "evidence_refs": [
+          "U1"
+        ],
+        "assumption_refs": [],
+        "unknown_refs": []
+      },
+      "capacity_status": "unknown",
+      "new_capabilities": [
+        "待真实实践核实"
+      ],
+      "market_feedback_needed": [
+        "有实际职责方或需求方反馈后再判断"
+      ],
+      "growth_conditions": [
+        "用户认可方向并验证需求"
+      ],
+      "inflection_reason": "取决于后续验证，未设置金额拐点",
+      "risk": "需求与时间均未验证",
+      "continue_condition": "获得真实使用反馈且容量允许",
+      "stop_condition": "与意愿或容量冲突时暂停",
+      "unknown_refs": [
+        "N1"
+      ]
+    },
+    {
+      "id": "C",
+      "name": "本人愿意时的小型方案验证",
+      "mechanism": "本人愿意时的小型方案验证",
+      "status": "exploratory",
+      "annual": [
+        {
+          "year": 0,
+          "formula": null,
+          "kind": "unknown",
+          "value": null,
+          "evidence_refs": [],
+          "assumption_refs": [],
+          "unknown_refs": [
+            "N1"
+          ]
+        },
+        {
+          "year": 1,
+          "formula": null,
+          "kind": "unknown",
+          "value": null,
+          "evidence_refs": [],
+          "assumption_refs": [],
+          "unknown_refs": [
+            "N1"
+          ]
+        },
+        {
+          "year": 2,
+          "formula": null,
+          "kind": "unknown",
+          "value": null,
+          "evidence_refs": [],
+          "assumption_refs": [],
+          "unknown_refs": [
+            "N1"
+          ]
+        },
+        {
+          "year": 3,
+          "formula": null,
+          "kind": "unknown",
+          "value": null,
+          "evidence_refs": [],
+          "assumption_refs": [],
+          "unknown_refs": [
+            "N1"
+          ]
+        },
+        {
+          "year": 4,
+          "formula": null,
+          "kind": "unknown",
+          "value": null,
+          "evidence_refs": [],
+          "assumption_refs": [],
+          "unknown_refs": [
+            "N1"
+          ]
+        },
+        {
+          "year": 5,
+          "formula": null,
+          "kind": "unknown",
+          "value": null,
+          "evidence_refs": [],
+          "assumption_refs": [],
+          "unknown_refs": [
+            "N1"
+          ]
+        }
+      ],
+      "strength_ids": [],
+      "evidence_refs": [
+        "U1"
+      ],
+      "fit_reason": {
+        "kind": "inference",
+        "value": "仅是待核实候选，不构成推荐",
+        "evidence_refs": [
+          "U1"
+        ],
+        "assumption_refs": [],
+        "unknown_refs": []
+      },
+      "capacity_status": "unknown",
+      "new_capabilities": [
+        "待真实实践核实"
+      ],
+      "market_feedback_needed": [
+        "有实际职责方或需求方反馈后再判断"
+      ],
+      "growth_conditions": [
+        "用户认可方向并验证需求"
+      ],
+      "inflection_reason": "取决于后续验证，未设置金额拐点",
+      "risk": "需求与时间均未验证",
+      "continue_condition": "获得真实使用反馈且容量允许",
+      "stop_condition": "与意愿或容量冲突时暂停",
+      "unknown_refs": [
+        "N1"
+      ]
+    }
+  ],
+  "action_plans": [
+    {
+      "path_id": "A",
+      "hypotheses": [
+        "此候选与本人意愿、能力及真实需要是否一致"
+      ],
+      "tasks": [
+        {
+          "day": 7,
+          "name": "A路径第7天验证",
+          "description": "围绕“本职方案交付深化”开展一个待确认最小实验",
+          "strength_ids": [],
+          "steps": [
+            "选择一件已做过的任务",
+            "脱敏整理一页材料",
+            "在允许分享且容量允许时请一位熟悉该任务的人反馈"
+          ],
+          "estimated_minutes": null,
+          "estimate_kind": "unknown",
+          "resources": [
+            "现有记录；分享需本人同意"
+          ],
+          "deliverable": "一页经历记录及反馈或明确未获得反馈",
+          "metric": "能否复述本人贡献和适用条件",
+          "completion_rule": "材料形成并记录一条反馈，或明确未获得反馈",
+          "feedback_method": "征得同意后询问熟悉任务的人，不自动联系",
+          "risk": "容量未知，不承诺日期内必完成",
+          "fallback": "缩小为一段记录；无法实施则延期并保留未知",
+          "assumption_refs": [],
+          "unknown_refs": [
+            "N1"
+          ]
+        },
+        {
+          "day": 30,
+          "name": "A路径第30天验证",
+          "description": "围绕“本职方案交付深化”开展一个待确认最小实验",
+          "strength_ids": [],
+          "steps": [
+            "选择一件已做过的任务",
+            "脱敏整理一页材料",
+            "在允许分享且容量允许时请一位熟悉该任务的人反馈"
+          ],
+          "estimated_minutes": null,
+          "estimate_kind": "unknown",
+          "resources": [
+            "现有记录；分享需本人同意"
+          ],
+          "deliverable": "一页经历记录及反馈或明确未获得反馈",
+          "metric": "能否复述本人贡献和适用条件",
+          "completion_rule": "材料形成并记录一条反馈，或明确未获得反馈",
+          "feedback_method": "征得同意后询问熟悉任务的人，不自动联系",
+          "risk": "容量未知，不承诺日期内必完成",
+          "fallback": "缩小为一段记录；无法实施则延期并保留未知",
+          "assumption_refs": [],
+          "unknown_refs": [
+            "N1"
+          ]
+        },
+        {
+          "day": 90,
+          "name": "A路径第90天验证",
+          "description": "围绕“本职方案交付深化”开展一个待确认最小实验",
+          "strength_ids": [],
+          "steps": [
+            "选择一件已做过的任务",
+            "脱敏整理一页材料",
+            "在允许分享且容量允许时请一位熟悉该任务的人反馈"
+          ],
+          "estimated_minutes": null,
+          "estimate_kind": "unknown",
+          "resources": [
+            "现有记录；分享需本人同意"
+          ],
+          "deliverable": "一页经历记录及反馈或明确未获得反馈",
+          "metric": "能否复述本人贡献和适用条件",
+          "completion_rule": "材料形成并记录一条反馈，或明确未获得反馈",
+          "feedback_method": "征得同意后询问熟悉任务的人，不自动联系",
+          "risk": "容量未知，不承诺日期内必完成",
+          "fallback": "缩小为一段记录；无法实施则延期并保留未知",
+          "assumption_refs": [],
+          "unknown_refs": [
+            "N1"
+          ]
+        }
+      ],
+      "decision_rules": {
+        "continue": "有反馈且愿意继续",
+        "adjust": "有反馈但方向不匹配",
+        "pause": "容量或意愿不允许"
+      },
+      "final_decision": null,
+      "decision_status": "pending"
+    },
+    {
+      "path_id": "B",
+      "hypotheses": [
+        "此候选与本人意愿、能力及真实需要是否一致"
+      ],
+      "tasks": [
+        {
+          "day": 7,
+          "name": "B路径第7天验证",
+          "description": "围绕“相邻售前岗位探索”开展一个待确认最小实验",
+          "strength_ids": [],
+          "steps": [
+            "选择一件已做过的任务",
+            "脱敏整理一页材料",
+            "在允许分享且容量允许时请一位熟悉该任务的人反馈"
+          ],
+          "estimated_minutes": null,
+          "estimate_kind": "unknown",
+          "resources": [
+            "现有记录；分享需本人同意"
+          ],
+          "deliverable": "一页经历记录及反馈或明确未获得反馈",
+          "metric": "能否复述本人贡献和适用条件",
+          "completion_rule": "材料形成并记录一条反馈，或明确未获得反馈",
+          "feedback_method": "征得同意后询问熟悉任务的人，不自动联系",
+          "risk": "容量未知，不承诺日期内必完成",
+          "fallback": "缩小为一段记录；无法实施则延期并保留未知",
+          "assumption_refs": [],
+          "unknown_refs": [
+            "N1"
+          ]
+        },
+        {
+          "day": 30,
+          "name": "B路径第30天验证",
+          "description": "围绕“相邻售前岗位探索”开展一个待确认最小实验",
+          "strength_ids": [],
+          "steps": [
+            "选择一件已做过的任务",
+            "脱敏整理一页材料",
+            "在允许分享且容量允许时请一位熟悉该任务的人反馈"
+          ],
+          "estimated_minutes": null,
+          "estimate_kind": "unknown",
+          "resources": [
+            "现有记录；分享需本人同意"
+          ],
+          "deliverable": "一页经历记录及反馈或明确未获得反馈",
+          "metric": "能否复述本人贡献和适用条件",
+          "completion_rule": "材料形成并记录一条反馈，或明确未获得反馈",
+          "feedback_method": "征得同意后询问熟悉任务的人，不自动联系",
+          "risk": "容量未知，不承诺日期内必完成",
+          "fallback": "缩小为一段记录；无法实施则延期并保留未知",
+          "assumption_refs": [],
+          "unknown_refs": [
+            "N1"
+          ]
+        },
+        {
+          "day": 90,
+          "name": "B路径第90天验证",
+          "description": "围绕“相邻售前岗位探索”开展一个待确认最小实验",
+          "strength_ids": [],
+          "steps": [
+            "选择一件已做过的任务",
+            "脱敏整理一页材料",
+            "在允许分享且容量允许时请一位熟悉该任务的人反馈"
+          ],
+          "estimated_minutes": null,
+          "estimate_kind": "unknown",
+          "resources": [
+            "现有记录；分享需本人同意"
+          ],
+          "deliverable": "一页经历记录及反馈或明确未获得反馈",
+          "metric": "能否复述本人贡献和适用条件",
+          "completion_rule": "材料形成并记录一条反馈，或明确未获得反馈",
+          "feedback_method": "征得同意后询问熟悉任务的人，不自动联系",
+          "risk": "容量未知，不承诺日期内必完成",
+          "fallback": "缩小为一段记录；无法实施则延期并保留未知",
+          "assumption_refs": [],
+          "unknown_refs": [
+            "N1"
+          ]
+        }
+      ],
+      "decision_rules": {
+        "continue": "有反馈且愿意继续",
+        "adjust": "有反馈但方向不匹配",
+        "pause": "容量或意愿不允许"
+      },
+      "final_decision": null,
+      "decision_status": "pending"
+    },
+    {
+      "path_id": "C",
+      "hypotheses": [
+        "此候选与本人意愿、能力及真实需要是否一致"
+      ],
+      "tasks": [
+        {
+          "day": 7,
+          "name": "C路径第7天验证",
+          "description": "围绕“本人愿意时的小型方案验证”开展一个待确认最小实验",
+          "strength_ids": [],
+          "steps": [
+            "选择一件已做过的任务",
+            "脱敏整理一页材料",
+            "在允许分享且容量允许时请一位熟悉该任务的人反馈"
+          ],
+          "estimated_minutes": null,
+          "estimate_kind": "unknown",
+          "resources": [
+            "现有记录；分享需本人同意"
+          ],
+          "deliverable": "一页经历记录及反馈或明确未获得反馈",
+          "metric": "能否复述本人贡献和适用条件",
+          "completion_rule": "材料形成并记录一条反馈，或明确未获得反馈",
+          "feedback_method": "征得同意后询问熟悉任务的人，不自动联系",
+          "risk": "容量未知，不承诺日期内必完成",
+          "fallback": "缩小为一段记录；无法实施则延期并保留未知",
+          "assumption_refs": [],
+          "unknown_refs": [
+            "N1"
+          ]
+        },
+        {
+          "day": 30,
+          "name": "C路径第30天验证",
+          "description": "围绕“本人愿意时的小型方案验证”开展一个待确认最小实验",
+          "strength_ids": [],
+          "steps": [
+            "选择一件已做过的任务",
+            "脱敏整理一页材料",
+            "在允许分享且容量允许时请一位熟悉该任务的人反馈"
+          ],
+          "estimated_minutes": null,
+          "estimate_kind": "unknown",
+          "resources": [
+            "现有记录；分享需本人同意"
+          ],
+          "deliverable": "一页经历记录及反馈或明确未获得反馈",
+          "metric": "能否复述本人贡献和适用条件",
+          "completion_rule": "材料形成并记录一条反馈，或明确未获得反馈",
+          "feedback_method": "征得同意后询问熟悉任务的人，不自动联系",
+          "risk": "容量未知，不承诺日期内必完成",
+          "fallback": "缩小为一段记录；无法实施则延期并保留未知",
+          "assumption_refs": [],
+          "unknown_refs": [
+            "N1"
+          ]
+        },
+        {
+          "day": 90,
+          "name": "C路径第90天验证",
+          "description": "围绕“本人愿意时的小型方案验证”开展一个待确认最小实验",
+          "strength_ids": [],
+          "steps": [
+            "选择一件已做过的任务",
+            "脱敏整理一页材料",
+            "在允许分享且容量允许时请一位熟悉该任务的人反馈"
+          ],
+          "estimated_minutes": null,
+          "estimate_kind": "unknown",
+          "resources": [
+            "现有记录；分享需本人同意"
+          ],
+          "deliverable": "一页经历记录及反馈或明确未获得反馈",
+          "metric": "能否复述本人贡献和适用条件",
+          "completion_rule": "材料形成并记录一条反馈，或明确未获得反馈",
+          "feedback_method": "征得同意后询问熟悉任务的人，不自动联系",
+          "risk": "容量未知，不承诺日期内必完成",
+          "fallback": "缩小为一段记录；无法实施则延期并保留未知",
+          "assumption_refs": [],
+          "unknown_refs": [
+            "N1"
+          ]
+        }
+      ],
+      "decision_rules": {
+        "continue": "有反馈且愿意继续",
+        "adjust": "有反馈但方向不匹配",
+        "pause": "容量或意愿不允许"
+      },
+      "final_decision": null,
+      "decision_status": "pending"
+    }
+  ],
+  "selected_path_id": null,
+  "recommended_path_id": null,
+  "reviews": {
+    "ADVANTAGE_EVIDENCE_AUDITOR": {
+      "status": "limited",
+      "issues": [
+        "仅合成少量输入；不作确定推荐或容量通过结论"
+      ],
+      "evidence_refs": [
+        "U1"
+      ],
+      "unknown_refs": [
+        "N1"
+      ]
+    },
+    "INCOME_PATH_AUDITOR": {
+      "status": "limited",
+      "issues": [
+        "仅合成少量输入；不作确定推荐或容量通过结论"
+      ],
+      "evidence_refs": [
+        "U1"
+      ],
+      "unknown_refs": [
+        "N1"
+      ]
+    },
+    "ACTION_PLAN_AUDITOR": {
+      "status": "limited",
+      "issues": [
+        "仅合成少量输入；不作确定推荐或容量通过结论"
+      ],
+      "evidence_refs": [
+        "U1"
+      ],
+      "unknown_refs": [
+        "N1"
+      ]
+    }
+  },
+  "reports": [
+    {
+      "id": "REPORT_01",
+      "report_id": "SIM-sales",
+      "revision": 1
+    },
+    {
+      "id": "REPORT_02",
+      "report_id": "SIM-sales",
+      "revision": 1
+    },
+    {
+      "id": "REPORT_03",
+      "report_id": "SIM-sales",
+      "revision": 1
+    }
+  ]
+}
